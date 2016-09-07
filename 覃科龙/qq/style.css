@@ -1,0 +1,172 @@
+*{
+    margin:0;
+    padding:0;
+    font-family: Arial, 'Microsoft YaHei';
+}
+ul,ol li{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+}
+.cf:after{
+    content:"";
+    display:table;
+    clear:both;
+}
+
+body{
+
+    background: url("images/nodejs-1920x1200.png")no-repeat;
+    background-size: 100% 800px;
+    position: relative;
+
+}
+
+.qq{font-size: 15px;position: relative;top:20px;left: 20px;}
+.qq li{width: 60px;text-align: center;cursor: pointer;margin-top:4px;color: #fff;}
+.qq li img{width: 60px;height:60px;}
+
+/*-------登录框--------*/
+.dl{  background: #EBF2F9;border-radius: 3px; position:fixed;  top:20%;  left:20%;  width: 430px; display: none;}
+.pwd{width: 345px;margin: 10px auto;}
+.pwd .tou img{  border: 1px solid#B1B2B3;border-radius: 3px;  width:80px;height:80px;float: left  }
+.pwd1{width: 195px;font-size: 12px;float: left;margin: 0 8px;}
+input {  border:none;  outline:none; vertical-align: middle; }
+.text{width: 193px;height:30px;border: 1px solid#ccc;
+    border-bottom: none;border-top-right-radius: 2px;border-top-left-radius:2px;}
+.paw{width: 193px;height:29px;border:1px solid#ccc;margin-bottom: 10px;
+    border-bottom-right-radius: 4px;
+    border-bottom-left-radius:4px; }
+.btn{margin-left: 60px;}
+.btn1{width: 195px;height:30px;background:#09A3DC;border-radius: 4px;color: #fff;margin: 10px 0;cursor:pointer; }
+
+.pwd2 a{font-size:12px;float:left;line-height: 35px;color: #2786E4;}
+
+/*-------右上角-x --------*/
+.xx{position: absolute;top:0;right: 0;}
+.xx li{width: 30px;height:30px;position: relative;float: left;overflow: hidden}
+.xx1 img{position: absolute;top:2px;left: 0;}
+.xx2 img{position: absolute;top:2px;left: -29px;}
+.xx3 img{position: absolute;top:1px;left: -90px;}
+.xx4 img{position: absolute;top:1px;left: -90px;}
+.xx1:hover{background: #1B9FF4;}
+.xx2:hover{background: #1B9FF4;}
+.xx3:hover{background: #f60;}
+
+
+/*--------------头像框顶部-------------*/
+
+.jie{background: #fff;position: absolute;   top:0;  right: 20px;  width: 280px;border: 1px solid#ccc;display: none; }
+.xx{position: absolute;top:0;right: 0;}
+.xx li{width: 30px;height:30px;position: relative;float: left;overflow: hidden;}
+.jm img{vertical-align: top; }
+.jm-x img{position: absolute;top:2px;left: -29px;}
+.jm-x1 img{position: absolute;top:2px;left: -90px;}
+.jm-x:hover{background: #ccc;}
+.jm-x1:hover{background: #f60;}
+
+.qq-top{background: transparent;position: absolute;top:6px;left:6px;}
+
+
+/*--------------头像框-------------*/
+.jm-dl{border: 0px solid#000000;height:80px; width:260px;position: absolute;top:50px;left: 0;}
+.jm-dl dt img{  width:65px;height:65px;float: left;border: 1px solid#c7ced6;margin:0 7px; border-radius: 3px;}
+.jm-dl dd img:hover{border: 1px solid#ccc;}
+.jm-dl dd img{border: 1px solid transparent;padding: 3px;}
+.jm-dl dd{float: left;border: 0px solid#000000;width: 175px;}
+.jm-dl .ss{background: transparent;margin-top: 10px;font-size: 12px;}
+
+.di-tu{position: absolute;top:125px;left:5px;}
+.di-tu li{width: 20px;height: 20px;border:1px solid transparent;float: left;margin-right: 20px; }
+.tu1{background: url("images/top-menu.png") 0 0;}
+.tu2{background: url("images/top-menu.png") -20px 0;}
+.tu3{background: url("images/top-menu.png") -40px 0;}
+.tu4{background: url("images/top-menu.png") -60px 0;}
+.tu5{background: url("images/top-menu.png") -80px 0;}
+.tu6{background: url("images/top-menu.png") -100px 0;}
+
+.di-tu li:hover{border: 1px solid#ccc;cursor: pointer;}
+
+.shou{position: absolute;top:150px;
+    margin-left:8px;width:280px;height: 30px;line-height:30px;font-size:12px;background: url("images/serch.png")no-repeat 250px 7px ;}
+.shou1{width:280px;height:30px;background: #000;position:absolute;top:150px; opacity: .3;}
+
+
+
+.lun li{width: 20px;height: 20px;border:0px solid#00ff00; overflow: hidden;float: left;margin: 6px 23px;}
+
+
+
+
+
+/*--------------好友框-------------*/
+.hou{width:350px;height:55px; border: 1px solid#ccc; font-size: 12px;border-bottom: none;}
+.hou:hover{background: #fff4b8;}
+.hou dt img{width: 42px;height: 42px;margin:6px;float: left;border-radius: 3px;}
+.hou dd{float: left;font-size: 12px;margin: 6px; line-height: 22px;}
+
+.hou-1{color:#f00;}
+
+.gun{height: 450px;overflow: auto;overflow-x:hidden; }
+
+
+
+/*-------底部--------*/
+.zui{border:1px solid#ccc;height:55px;background:#f0f3f5; font-size: 12px;}
+.zui li img{width:20px;height:20px;border:0px solid#00ff00;vertical-align: middle; }
+.zui li{float: left;margin:5px 4px 0 5px;}
+
+/*------弹框--------*/
+.tan{
+display: none;
+    width: 440px;height:525px;background:#FBEEDE;position: fixed;top:100px;left: 30%;font-size: 12px;border-radius: 4px; }
+
+.tan1{width: 440px;height:94px;background: url("images/box-bg.jpg")no-repeat 175px 8px;border-bottom: 1px solid#ccc;}
+
+/*-------右上角图标-x --------*/
+.xx11 img{position: absolute;top:2px;left: 0;}
+.xx22 img{position: absolute;top:2px;left: -29px;}
+.xx33 img{position: absolute;top:1px;left: -60px;}
+.xx44 img{position: absolute;top:1px;left: -90px;}
+.xx11:hover{background: #1B9FF4;cursor: pointer;}
+.xx22:hover{background: #1B9FF4;cursor: pointer;}
+.xx33:hover{background: #1B9FF4;cursor: pointer;}
+.xx44:hover{background: #f60;cursor: pointer;}
+
+/*-------头像--------*/
+.hou1{;height:55px; font-size: 12px; border: 1px solid transparent;}
+.hou1 dt img{width: 42px;height: 42px;margin:6px;float: left;border-radius: 3px;}
+.hou1 dd{float: left;font-size: 12px;margin: 6px; line-height: 22px;}
+.hou1 dd p{font-size: 16px;}
+
+/*-------头像下面图标 --------*/
+.tan1 .tan-1 li{float: left;margin: 5px 6px;  border: 1px solid transparent;  }
+.tan1 .tan-1 li:hover{ border: 1px solid#ccc;}
+
+
+.tan-2{height: 290px;border-bottom: 1px solid#ccc;font-size: 12px;}
+.tan-nei{padding: 10px;}
+.tan-nei dd{padding: 10px;}
+.tan-nei dt{color: #0000ff;}
+
+/*--发送内容--*/
+.tan-k{position: relative;}
+.tan-3{ position: relative; }
+.tan-3 li img{vertical-align: middle;}
+
+.tan-3 li{float: left; margin: 3px 2px;border: 1px solid transparent;}
+.tan-3 li:hover{border: 1px solid #ccc;}
+
+.tan-4{float: left;width:85px;margin-left:60px;position: absolute;top:3px;right: 4px;}
+.tan-4-1 img{vertical-align: middle}
+.tan-4-1 li{float: left;vertical-align: middle}
+.tan-4-1{border: 1px solid transparent;}
+.tan-4-1:hover{border: 1px solid #ccc;}
+.tan-5{position: absolute;right: 0;bottom:-20px;}
+.tan-5 li{background:#ea4848;color: #fff;border-radius: 4px;padding: 3px 5px;float: left;margin-right: 5px;cursor: pointer;}
+
+textarea{outline: none;width:420px;height:80px; line-height:20px;margin-left: 10px;border: none;background: transparent;}
+
+
+
