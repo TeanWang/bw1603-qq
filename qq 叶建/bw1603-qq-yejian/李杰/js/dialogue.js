@@ -10,8 +10,9 @@ $(function () {
 		}else {
 		   var time = show();
 	       var nickname = '我的昵称';
-		   var content = $('#info').val()
-	  	   $('.show').append('<div class="nt"><span>'+nickname+'&nbsp;'+time+'</span></div><div class="s_content">'+content+'</div>')
+		   var content = $('#qq-chat-text').val()
+		   var cons = content.replace(/\n/g,'<br>')
+	  	   $('.show').append('<li><div class="my-dialogue"><span>'+name+'</span><i>'+time+'</i></div><div class="content">'+cons+'</div></li>')
 		}
 	});
 	
