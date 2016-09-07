@@ -1,0 +1,197 @@
+*{margin: 0px;padding: 0px;}
+ul,li{list-style-type: none  ;}
+body{font-family:'Microsoft YaHei'; }
+img{vertical-align: top;}
+a{text-decoration: none;}
+.cf:after{content: '';display: table;clear:both;}
+.cf{*zoom:1;}
+body{background:url("../images/lan2.jpg");}
+
+/*腾讯QQ客户端*/
+.client{width: 70px;height: 80px;position: fixed;left:20px;top:20px;background:url("../images/QQ-ICON.png") no-repeat 5px 5px;background-size: 60px 60px;text-align: center;cursor: pointer;color: white;font-size: 14px;padding-top: 10px;text-indent:2px;border: 1px solid rgb(172,202,239);border-radius: 4px;border: transparent}
+.client:hover{box-shadow: 0 0 2px #000;background-color: rgba(255,255,255,.2)}
+
+/*登录界面*/
+.get{width: 430px;height: 330px;border-radius: 3px;margin: 200px 0 0px 35%;background:url("../images/qqlan.jpg") no-repeat;background-color: rgb(235,242,249);position: relative;display: none;}
+
+/*登录界面右上角的小功能*/
+.little{width: 100px;height: 30px;position: absolute;top:0px;right: 0px;}
+.little div{width: 30px;height: 30px;float: right;}
+
+.little1{background-color: rgb(224,72,72);opacity:0;border-radius: 1px;}
+.little11{position:relative;left: 30px;top: 0px;width: 8px;height: 8px;}
+
+.little2{background-color: rgb(58,149,222);position: relative;left: 30px;top: 0px;opacity: 0;}
+.little22{position:relative;left: -30px;top: -30px;width: 8px;height: 8px;}
+
+.little3{background-color: rgb(58,149,222);position: absolute;left: 10px;top:0px;opacity: 0;}
+.little33{position:relative;left: -30px;top: -30px;width: 8px;height: 8px;}
+.little33 img{width: 14px;height: 8px;vertical-align:middle;margin-left: 8px;margin-top: 3px;}
+/*登录界面下边的登录信息*/
+
+/*左边的小图片*/
+/*.left{width: 133px;height: 148px;position: absolute;left: 0px;top:182px;text-indent:40px;background:url("../images/tara5.png") no-repeat 40px 10px;background-size: 80px 80px;}*/
+.left img{border: 1px solid #aaa;position: absolute;left: 40px;top:193px;}
+/*中间的输入框等*/
+.middle{width:194px;height: 148px;position: absolute;left: 133px;top:182px;}
+.top{width: 194px;height: 60px;border: 1px solid #d1d1d1;border-radius:3px;margin:10px 0px 0px 0px;background-color: white}
+.top .input1{width:182px;height: 30px;border:none;outline: none;margin-left:5px;font-family: "Microsoft YaHei";cursor: pointer}
+.top .input2{width:189px;height: 28px;border:none;outline: none;padding-left:5px;font-family: "Microsoft YaHei";border-top: 1px solid #d1d1d1;cursor: pointer}
+
+.center{width: 194px;height: 14px;line-height: 14px;margin-top: 10px;}
+.center .span1{font-size: 12px;color:rgb(51,51,51);height: 5px;}
+.center .span2{font-size: 12px;color:rgb(51,51,51);text-align: right;float: right;}
+
+.bottom{width: 194px;height: 30px;padding-top: 10px;}
+.bottom .admin{width: 194px;height: 30px;border-radius: 4px;background-color:rgb(9,163,220);color: white;text-align: center;line-height: 30px;font-family: "Microsoft YaHei";font-size: 14px;cursor:pointer}
+
+/*右边的注册找回*/
+.right{position: absolute;left: 338px;top:182px;}
+.right a{display: inline-block;margin-top: 16px;font-size: 12px;color: rgb(124,134,228);width: 90px}
+
+
+/*qq应用界面盒子*/
+.qq{width: 280px;height: 634px;background-color: #fff;position: fixed;top:20px;right:30px;border-radius: 4px;display: none}
+
+
+/*qq界面背景和布局*/
+.bg{width: 100%;height: 155px;background: url("../images/tara2.jpg")no-repeat;background-size: 280px;height: 155px;border-radius: 3px;}
+.one{width: 280px;height: 28px;position: relative;left: 0px;top: 0px;}
+.one img{margin: 5px 0px 0px 5px}
+.one .one2{width: 28px;height: 28px;position: absolute;top: 0px;right: 0px;}
+.one .one2:hover{background-color:rgb(234,72,72);-webkit-transition: all 0.6s}
+.one .one3{width: 28px;height: 28px;position: absolute;top: 0px;right: 28px;}
+.one .one2 img{margin-top: 0px;margin-left: auto;}
+.one .one3 img{margin-top: 0px;margin-left: auto;}
+.one .one3:hover{background-color:rgba(226,215,200,.5);-webkit-transition: all 0.6s}
+.two{width: 280px;height: 36px;margin-top: 20px;}
+.two1{font-size: 24px;padding-left: 15px;float: left}
+.two2{float: left;width: 18px;  height:18px;margin:7px 1px 0px 5px;}
+.two2 img{margin:2px 0px 0px 3px;}
+.two2:hover{box-shadow: 0 0 2px #000;}
+.two3{float: left;width: 27px;  height:14px;margin:7px 1px 0px 1px;}
+.two3 img{margin:2px 0px 0px 3px;}
+.two3:hover{box-shadow: 0 0 2px #000;}
+.two4{float: left;width: 34px;height:14px;margin:7px 5px 0px 1px;}
+.two4 img{margin:2px 0px 0px 3px;}
+.two4:hover{box-shadow: 0 0 2px #000;}
+
+.three{margin-left: 13px;}
+.three input{width:200px;color:#fff;font-size: 10px;background: none;outline: none;border: 0 none;}
+
+.four{width: 270px;height:20px;margin-left: 10px;}
+.four li:hover{box-shadow: 0 0 2px #000;}
+.four li{margin-right: 5px;}
+.four .li1{float: left;width: 20px;height: 20px;background:url("../images/top-menu.png")no-repeat;background-position: 0px 0px;}
+.four .li2{float: left;width: 20px;height: 20px;background:url("../images/top-menu.png")no-repeat;background-position: -20px 0px;}
+.four .li3{float: left;width: 20px;height: 20px;background:url("../images/top-menu.png")no-repeat;background-position: -40px 0px;}
+.four .li4{float: left;width: 20px;height: 20px;background:url("../images/top-menu.png")no-repeat;background-position: -60px 0px;}
+.four .li5{float: right;width: 20px;height: 20px;background:url("../images/top-menu.png")no-repeat;background-position: -100px 0px;margin-right: 10px;}
+.four .li6{float: right;width: 20px;height: 20px;background:url("../images/top-menu.png")no-repeat;background-position: -80px 0px;}
+
+.five{background: url("../images/sou.png")no-repeat 258px center;background-color: rgba(0,0,0,.2); color: #fff;height: 30px;line-height: 30px;font-size: 14px;padding: 0px 10px;}
+
+/*qq好友列表*/
+.table{width: 100%;height: 36px;border-bottom: 1px solid rgb(204,204,204);position: relative;}
+.table li{float: left;width: 70px;height: 36px;}
+.table span{display: inline-block}
+.table .table1{background: url("../images/sj.png");background-position:0px -20px;width: 20px;height: 20px;margin-top: 8px;margin-left: 22px;}
+.table .jiao1{background:url("../images/jiao.png") no-repeat;position: absolute;left: 26px;top: 31px;width: 12px;height: 10px;}
+.table .table2{background: url("../images/dan.png");width: 20px;height: 20px;margin-top: 8px;margin-left: 22px;}
+.table .table3{background: url("../images/shuang.png");width: 20px;height: 20px;margin-top: 8px;margin-left: 22px;}
+.table .table4{background: url("../images/shouji.png");width: 20px;height: 20px;margin-top: 8px;margin-left: 22px;}
+
+.tara{width: 280px;height: 366px;}
+.tara{cursor: default}
+.tara li{width: 100%;height: 60px;border-bottom: 1px solid rgb(204,204,204)}
+.tara img{border-radius:4px;border: 1px solid white}
+.tara li:hover{background-color: rgb(253,236,170)}
+.tara .lan{width: 42px;height: 45px;float: left;margin: 8px;}
+.tara .B1{font-size: 14px;padding-top: 8px;position: relative}
+.tara .B1 span{font-size:12px;position: absolute;top: 10px;right: 10px;color:#999}
+.tara .B2{font-size:12px;color:#999;padding-top: 10px;}
+
+.tara .ju{width: 42px;height: 45px;float: left;margin: 8px;}
+.tara .Q1{font-size: 14px;padding-top: 8px;position: relative;color: red}
+.tara .Q1 span{font-size:12px;position: absolute;top: 10px;right: 10px;color:#999}
+.tara .Q2{font-size:12px;color:#999;padding-top: 10px;}
+
+.tara .yuan{width: 42px;height: 45px;float: left;margin: 8px;}
+.tara .S1{font-size: 14px;padding-top: 8px;position: relative}
+.tara .S1 span{font-size:12px;position: absolute;top: 10px;right: 10px;color:#999}
+.tara .S2{font-size:12px;color:#999;padding-top: 10px;}
+
+.tara .jing{width: 42px;height: 45px;float: left;margin: 8px;}
+.tara .E1{font-size: 14px;padding-top: 8px;position: relative;color: red}
+.tara .E1 span{font-size:12px;position: absolute;top: 10px;right: 10px;color:#999}
+.tara .E2{font-size:12px;color:#999;padding-top: 10px;}
+
+.tara .min{width: 42px;height: 45px;float: left;margin: 8px;}
+.tara .H1{font-size: 14px;padding-top: 8px;position: relative;color: red}
+.tara .H1 span{font-size:12px;position: absolute;top: 10px;right: 10px;color:#999}
+.tara .H2{font-size:12px;color:#999;padding-top: 10px;}
+
+.tara .yan{width: 42px;height: 45px;float: left;margin: 8px;}
+.tara .J1{font-size: 14px;padding-top: 8px;position: relative}
+.tara .J1 span{font-size:12px;position: absolute;top: 10px;right: 10px;color:#999}
+.tara .J2{font-size:12px;color:#999;padding-top: 10px;}
+
+/*qq工具应用栏*/
+.apply{width: 100%;height: 75px;background-color: rgb(240,243,245);border-radius: 2px;}
+.shang{width: 270px;height: 20px;background-color: rgb(240,243,245);padding-left: 10px;padding-top: 15px;}
+.shang img{width: 20px;height: 20px;}
+.shang li{width: 20px;height: 20px;float: left;margin-right: 7px}
+.shang li:hover{box-shadow: 0 0 2px #000;}
+
+.xia img{width: 20px;height: 20px;}
+.xia li{width: 20px;height: 20px;float: left;margin-right: 7px}
+.xia{width: 270px;height: 20px;background-color: rgb(240,243,245);margin-top: 10px;padding-left: 10px;}
+.xia .xia1{width: 59px;height: 20px;font-size: 12px;margin-right: 0px}
+.xia .xia2{width: 62px;height: 20px;font-size: 12px;}
+
+/*第一个对话框*/
+.baolan{width:440px;height: 500px;border-radius: 4px;position: fixed;left: 35%;top: 70px;background: url("../images/box-bg.jpg")no-repeat 145px 0px;background-color: #fbeede;display: none}
+.baolan-ul{position: absolute;top: 0px;right: 0px;float: left}
+.baolan-ul li{width: 30px;height: 27px;float: left;cursor: pointer}
+.baolan-ul li:hover{background-color:rgb(58,149,222);-webkit-transition: all 0.6s }
+.baolan-ul-1{background: url("../images/ul.png")no-repeat 0px 0px;}
+.baolan-ul-2{background: url("../images/ul.png")no-repeat -30px 0px;}
+.baolan-ul-3{background: url("../images/ul.png")no-repeat -60px 0px;}
+.baolan-ul-4{background: url("../images/ul.png")no-repeat -90px 0px;}
+.baolan-ul .baolan-ul-4:hover{background-color:rgb(234,72,72);-webkit-transition: all 0.6s}
+.baolan-top{width: 100%;height: 100px;}
+.baolan-top1{width:51px;height: 59px;background-color: white;border-radius: 4px; box-shadow: 0 0 2px #000;margin-top: 5px;margin-left: 10px;float: left}
+.baolan-top1 img{padding-top:1px;padding-left: 1px;border-radius: 4px;}
+.baolan-top2{font-size: 20px;color: rgb(51,51,51);width:200px;height:24px;padding-top: 5px;padding-left: 10px;float: left}
+.baolan-top3{width: 200px;height: 18px;float: left;font-size: 14px;padding-top: 10px;padding-left: 10px;color: rgb(51,51,51);}
+.baolan-top4{width: 400px;height: 30px;float: left;margin-top: 4px;margin-left: 5px;}
+.baolan-top4 li{width: 26px;height: 26px;float: left;margin-right: 7px;}
+.baolan-top4 .baolan-top4-i{width: 33px;padding-left: 5px;}
+.baolan-top4 li:hover{box-shadow: 0 0 2px #000;}
+
+/*聊天窗口和回复窗口*/
+.baolan-btn{width: 100%;height: 407px;position: relative;}
+.baolan-btn1{width: 100%;height:260px;border-top: 1px solid rgb(217,202,205);border-bottom: 1px solid rgb(217,202,205);overflow-y: scroll}
+.baolan-btn1-a{font-size: 12px;margin-left: 10px;margin-top: 20px;color: rgb(0,52,250)}
+.baolan-btn1-b{font-size: 12px;margin-left: 20px;margin-top: 5px;color:rgb(102,102,102)}
+.baolan-btn1-c{width:300px;margin-top: 10px;margin-left: 10px;display: none}
+.baolan-btn1-c .ziji{font-size: 12px;color:rgb(23,128,64);width: 63px;display: inline-block;line-height: 20px;float: left}
+.baolan-btn1-c .shijian{font-size: 12px;color:rgb(23,128,64);width: 120px;height:20px;display: inline-block;line-height: 20px;float: left}
+.baolan-btn1-d{margin-left: 10px;color: red;font-size: 14px;display: none}
+
+
+.baolan-info{width:100%;height: 137px;}
+.baolan-info ul{width: 100%;height: 28px;margin-top: 4px;}
+.baolan-info li{width: 20px;height: 21px;float: left;margin-left: 5px;}
+.baolan-info .baolan-info-1{width: 32px;}
+.baolan-info .baolan-info-1 .img1{padding-top: 8px;padding-left: 2px;}
+.baolan-info li:hover{box-shadow: 0 0 2px #000;}
+.baolan-info span{width: 85px;height: 21px;float: right;font-size: 12px;margin-right: 5px; line-height:21px;}
+.baolan-info .img2{padding-top: 8px;}
+.baolan-info span:hover{box-shadow: 0 0 2px #000;cursor:default }
+
+.baolan-btn .text{background-color: #fbeede;width: 410px;height: 69px;margin-left: 10px;outline: none;border: none;color:rgb(102,102,102) }
+
+.baolan-btn .baolan-btn-x{width: 69px;height: 24px;background-color:rgb(234,72,72);border-radius: 4px;text-align: center;color: white;font-size: 14px;line-height: 24px;
+position: absolute;bottom: 11px;right: 92px;cursor: pointer}
+.baolan-btn .baolan-btn-s{width: 79px;height: 24px;background:url("../images/fa.png")no-repeat 53px 6px;background-color:rgb(234,72,72);border-radius: 4px;text-indent:16px;color: white;font-size: 14px;line-height: 24px;position: absolute;bottom: 11px;right: 10px;cursor: pointer}
