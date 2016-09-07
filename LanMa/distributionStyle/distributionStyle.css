@@ -1,0 +1,24 @@
+body, ul, ol, li, dl, dt, dd, p, a, h1, h2, h3, h4, h5, h6, form, fieldset, img, div, input {
+
+    margin: 0;
+    padding: 0;
+    color: #000;
+    outline: none;
+    border: 0 none;
+    font-size: 12px;
+    list-style: none;
+    font-weight: normal;
+    vertical-align: top;
+    text-decoration: none;
+    font-family: "Microsoft YaHei";
+}
+
+.cf:after {
+    content: '';
+    display: table;
+    clear: both;
+}
+
+.cf {
+    *zoom: 1;
+}
