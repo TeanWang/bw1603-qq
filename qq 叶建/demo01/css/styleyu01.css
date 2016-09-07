@@ -1,0 +1,131 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: '微软雅黑';
+}
+ul,li {
+    list-style-type: none;
+}
+a {
+    text-decoration: none;
+}
+.cf:after {
+    content:'';
+    display: table;
+    clear: both;
+}
+.cf {
+    *zoom:1;
+}
+
+
+.yhz-box {
+    width: 1600px;
+    height: 800px;
+    background: url("../images/95107.jpg") no-repeat;
+    background-size: 1600px 800px;
+    position: fixed;
+}
+.yhz-box1 {
+    width: 60px;
+    height: 60px;
+    cursor: pointer;
+    position: absolute;
+    top: 30px;
+    left: 30px;
+}
+.yhz-box1 img {
+    width: 60px;
+    height: 60px;
+}
+.yhz-box2 {
+    width: 430px;
+    height: 330px;
+    position: absolute;
+    top: 235px;
+    left: 585px;
+    display: none;
+}
+.yhz-box2-1 {
+    width: 430px;
+    height: 180px;
+    background: url('../images/qq-login-bg.jpg');
+}
+.yhz-box2-1 span {
+    width: 30px;
+    height: 30px;
+    float: right;
+    overflow: hidden;
+}
+.yhz-dot1 img {
+    position: relative;
+    left: -89px;
+}
+.yhz-dot2 img {
+    position: relative;
+    left: -30px;
+}
+.yhz-box2-2 {
+    width: 430px;
+    height: 150px;
+    background: #ebf2f9;
+}
+.yhz-dou1,.yhz-dou2,.yhz-dou3 {
+    padding-top: 12px;
+    float: left;
+}
+.yhz-dou1 {
+    width: 133px;
+    height: 148px;
+    background: url("../images/head.jpg") no-repeat 40px 12px;
+    background-size: 80px 80px;
+}
+.yhz-dou2 {
+    width: 194px;
+    height: 148px;
+}
+.yhz-l1 input {
+    width: 194px;
+    height: 26px;
+    outline:none;
+    cursor: pointer;
+}
+.yhz-l2 {
+    font-size: 12px;
+    height: 25px;
+    line-height: 25px;
+}.yhz-l2 input {
+    position: relative;
+    top: 2px;
+    cursor: pointer;
+}
+.yhz-l2 span {
+    float: right;
+}
+.yhz-l3 {
+    width: 194px;
+    height: 30px;
+}
+.btn {
+    border-radius: 3px;
+    width: 194px;
+    height: 30px;
+    font-size: 14px;
+    color: #fff;
+    background: #09a3dc;
+    outline:none;
+    border: none;
+}
+.yhz-dou3-1 {
+    width: 100px;
+    height: 30px;
+    line-height: 30px;
+    font-size: 12px;
+    text-indent: 15px;
+}
+.yhz-dou3-1 a {
+    text-decoration: none;
+    color: #2786e4;
+}

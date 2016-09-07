@@ -1,0 +1,676 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: '微软雅黑';
+}
+ul, li {
+    list-style-type: none;
+}
+a {
+    text-decoration: none;
+}
+.cf:after {
+    content: '';
+    display: table;
+    clear: both;
+}
+.cf {
+    *zoom: 1;
+}
+
+/* 登入页面样式*/
+.yhz-box {
+    width: 1600px;
+    height: 800px;
+    background: url("images/95107.jpg") no-repeat;
+    background-size: 1600px 800px;
+    position: fixed;
+}
+
+.yhz-box1 {
+    width: 60px;
+    height: 60px;
+    cursor: pointer;
+    position: absolute;
+    top: 30px;
+    left: 30px;
+}
+.yhz-box1 img {
+    width: 60px;
+    height: 60px;
+}
+.yhz-box2 {
+    width: 430px;
+    height: 330px;
+    position: absolute;
+    top: 235px;
+    left: 585px;
+    display: none;
+}
+.yhz-box2-1 {
+    width: 430px;
+    height: 180px;
+    background: url('images/qq-login-bg.jpg');
+}
+.yhz-box2-1 span {
+    width: 30px;
+    height: 30px;
+    float: right;
+    overflow: hidden;
+}
+.yhz-dot1 img {
+    position: relative;
+    left: -89px;
+}
+.yhz-dot2 img {
+    position: relative;
+    left: -30px;
+}
+.yhz-box2-2 {
+    width: 430px;
+    height: 150px;
+    background: #ebf2f9;
+}
+.yhz-dou1, .yhz-dou2, .yhz-dou3 {
+    padding-top: 12px;
+    float: left;
+}
+.yhz-dou1 {
+    width: 133px;
+    height: 148px;
+    background: url("images/head.jpg") no-repeat 40px 12px;
+    background-size: 80px 80px;
+}
+.yhz-dou2 {
+    width: 194px;
+    height: 148px;
+}
+.yhz-l1 input {
+    width: 194px;
+    height: 26px;
+    outline: none;
+    cursor: pointer;
+}
+.yhz-l2 {
+    font-size: 12px;
+    height: 25px;
+    line-height: 25px;
+}
+.yhz-l2 input {
+    position: relative;
+    top: 2px;
+    cursor: pointer;
+}
+.yhz-l2 span {
+    float: right;
+}
+.yhz-l3 {
+    width: 194px;
+    height: 30px;
+}
+.btn {
+    border-radius: 3px;
+    width: 194px;
+    height: 30px;
+    font-size: 14px;
+    color: #fff;
+    background: #09a3dc;
+    outline: none;
+    border: none;
+}
+.yhz-dou3-1 {
+    width: 100px;
+    height: 30px;
+    line-height: 30px;
+    font-size: 12px;
+    text-indent: 15px;
+}
+.yhz-dou3-1 a {
+    text-decoration: none;
+    color: #2786e4;
+}
+
+/* QQ */
+.qb-qq {
+    width: 280px;
+    height: 680px;
+    border-radius: 4px;
+    position: fixed;
+    top: 10px;
+    right: 30px;
+    background: #fff;
+    overflow: hidden;
+    display: none
+}
+.qq-top {
+    width: 100%;
+    height: 143px;
+    background: url("images/baozou.bg.jpg") no-repeat 100px -15px;
+    border-radius: 4px 4px 0 0
+}
+.qq-top-up div {
+    width: 50px;
+    height: 18px;
+    margin: 5px 5px;
+    float: left
+}
+.qq-top-up span {
+    width: 28px;
+    height: 28px;
+    float: right;
+    cursor: pointer
+}
+.qq-top-up .X:hover {
+    background: #f00;
+    opacity: .5
+}
+.qq-top-up .min:hover {
+    background: #000;
+    opacity: .1
+}
+.qq-top-name .qq-top-tx img {
+    width: 60px;
+    height: 60px;
+    border-radius: 4px;
+    border: 1px solid #f2f2f2;
+    cursor: pointer;
+    margin-left: 10px
+}
+
+.qq-top-name .qq-top-tx img:hover {
+    border: 1px solid lightblue
+}
+
+.qq-top-name {
+    padding: 10px 0 0
+}
+
+.qq-top-name .qq-top-tx, .qq-top-name span, .qq-top-name li {
+    float: left
+}
+
+.qq-top-name span {
+    font-size: 14px;
+    font-weight: bold;
+    margin-left: 5px
+}
+
+.qq-top-name .zai {
+    width: 12px;
+    height: 12px;
+    margin: 2px 15px 0 10px;
+    padding: 1px;
+    border: 1px solid transparent
+}
+
+.qq-top-name .lv {
+    width: 22px;
+    height: 10px
+}
+
+.qq-top-name .svip {
+    width: 30px;
+    height: 10px
+}
+
+.qq-top-name .lv, .qq-top-name .svip {
+    margin: 3px 1px 0 1px;
+    padding: 1px;
+    border: 1px solid transparent
+}
+
+.qq-top-name .zai:hover, .qq-top-name .lv:hover, .qq-top-name .svip:hover {
+    border-color: #ccc
+}
+
+.qq-top-name .qq-top-qm input {
+    margin: 2px 5px;
+    background: none;
+    border: 0 none;
+    font-size: 14px
+}
+
+.qq-top-menu li {
+    width: 20px;
+    height: 20px;
+    margin-left: 5px;
+    cursor: pointer;
+    background: url("images/top-menu.png") no-repeat;
+    border: 1px solid transparent
+}
+
+.qq-top-menu li:hover {
+    border-color: #ccc
+}
+
+.qq-top-menu .tu5, .qq-top-menu .tu6 {
+    float: right
+}
+
+.qq-top-menu .tu5 {
+    margin-right: 10px
+}
+
+.qq-top-menu .tu2 {
+    background-position: -20px center
+}
+
+.qq-top-menu .tu3 {
+    background-position: -40px center
+}
+
+.qq-top-menu .tu4 {
+    background-position: -60px center
+}
+
+.qq-top-menu .tu5 {
+    background-position: -100px center
+}
+
+.qq-top-menu .tu6 {
+    background-position: -80px center
+}
+
+.qq-top-ss input {
+    width: 235px;
+    height: 27px;
+    border: 0 none;
+    background: none
+}
+
+.qq-top-ss {
+    height: 30px;
+    line-height: 30px;
+    padding: 0 10px;
+    color: #555;
+    background: url("images/serch.png") no-repeat 255px center rgba(0, 0, 0, .1)
+}
+
+.qq-top-choose {
+    width: 100%;
+    height: 36px;
+    border-bottom: 1px solid #ccc
+}
+
+.qq-top-choose li {
+    width: 20px;
+    height: 20px;
+    margin: 8px 25px 0;
+    cursor: pointer;
+    float: left;
+    position: relative;
+    overflow: hidden
+}
+
+.qq-top-choose-li {
+    position: relative;
+    top: -40px
+}
+
+.qq-top-choose span {
+    position: relative
+}
+
+.qq-body {
+    margin-top: 5px;
+    position: relative
+}
+
+.sjx {
+    width: 12px;
+    height: 6px;
+    background: url("images/qq-xuan-jiao.png") no-repeat left center;
+    position: absolute;
+    left: 30px;
+    top: -7px
+}
+
+.qq-body ul li {
+    width: 100%;
+    height: 54px;
+    border-bottom: 1px solid #ccc;
+    cursor: default
+}
+
+.qq-body-img {
+    width: 40px;
+    height: 40px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.qq-body ul li img {
+    width: 40px;
+    height: 40px
+}
+
+.qq-body div {
+    float: left
+}
+
+.qq-body-img {
+    margin: 6px
+}
+
+.qq-body .qq-haoyou {
+    width: 226px;
+    height: 20px;
+    line-height: 20px;
+    margin: 5px 0
+}
+
+.qq-body .qq-hao1 {
+    float: left;
+    font-size: 14px
+}
+
+.qq-body .qq-hao2 {
+    float: right;
+    color: #999;
+    margin-right: 10px
+}
+
+.qq-body .qq-talk {
+    color: #999
+}
+
+.qq-bottom .qq-bottom-menu1 li {
+    width: 18px;
+    height: 18px;
+    float: left;
+    cursor: pointer;
+    margin: 5px 4px 0;
+    border: 1px solid transparent
+}
+
+.qq-bottom .qq-bottom-menu1 li img {
+    width: 18px;
+    height: 18px;
+    float: left
+}
+
+.qq-bottom .qq-bottom-menu2 li {
+    width: 20px;
+    height: 20px;
+    float: left;
+    cursor: pointer;
+    margin: 5px 3px 0;
+    border: 1px solid transparent
+}
+
+.qq-bottom .qq-bottom-menu2 li img {
+    width: 20px;
+    height: 20px;
+    float: left
+}
+
+.qq-bottom li:hover {
+    border-color: #ccc
+}
+
+.qq-bottom .qq-bottom-menu2 .cz {
+    width: 50px;
+    margin-left: 7px
+}
+
+.qq-bottom .qq-bottom-menu2 .yyb {
+    width: 65px;
+    margin-left: 7px
+}
+
+.qq-bottom .qq-bottom-menu2 span {
+    float: left;
+    line-height: 20px;
+    margin-left: 5px
+}
+
+/*对话框样式*/
+.yhz-box3 {
+    width: 440px;
+    height: 510px;
+    background: #fbeede url("images/box-bg.jpg") right top no-repeat;
+    border: 1px solid #d9d4cd;
+    border-radius: 4px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    margin-top: -255px;
+    margin-left: -200px;
+    display: none;
+}
+
+.yhz-box3-1 {
+    width: 440px;
+    height: 84px;
+    position: relative;
+}
+
+.yhz-box3-1-1 {
+    width: 40px;
+    height: 40px;
+    background: url("images/QQ图片20160827141155.png") no-repeat;
+    background-size: 40px 40px;
+    border: 1px solid #d9d4cd;
+    position: absolute;
+    top: 5px;
+    left: 10px;
+}
+
+.yhz-box3-1-2 {
+    width: 260px;
+    height: 24px;
+    line-height: 24px;
+    font-size: 18px;
+    position: absolute;
+    top: 5px;
+    left: 60px;
+}
+
+.yhz-box3-1-3 {
+    width: 260px;
+    height: 18px;
+    line-height: 18px;
+    font-size: 10px;
+    position: absolute;
+    top: 29px;
+    left: 60px;
+}
+
+.yhz-box3-1-4 {
+    width: 120px;
+    height: 30px;
+    position: absolute;
+    top: -1px;
+    right: 0;
+}
+
+.yhz-box3-1-4 li {
+    width: 30px;
+    height: 30px;
+    float: right;
+    overflow: hidden;
+}
+
+.yhz-dot5 img {
+    position: relative;
+    left: -32px;
+}
+
+.yhz-dot6 img {
+    position: relative;
+    left: -60px;
+}
+
+.yhz-dot7 img {
+    position: relative;
+    left: -90px;
+}
+
+.yhz-box3-1-5 {
+    width: 440px;
+    height: 32px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+
+.yhz-box3-1-5 li {
+    float: left;
+}
+
+.yhz-bo {
+    width: 26px;
+    height: 26px;
+    border: 1px solid transparent;
+    margin: 2px 5px;
+}
+
+.yhz-boo {
+    width: 34px;
+    height: 26px;
+    border: 1px solid transparent;
+    margin: 2px 5px;
+}
+
+.yhz-boom {
+    position: relative;
+    bottom: 12px;
+}
+
+.yhz-box3-2 {
+    width: 440px;
+    height: 290px;
+    border-top: 1px solid #d9d4cd;
+    border-bottom: 1px solid #d9d4cd;
+}
+
+.yhz-box3-2-1 {
+    width: 200px;
+    height: 20px;
+    font-size: 12px;
+    color: #0034fa;
+    margin-top: 15px;
+    margin-left: 10px;
+}
+
+.yhz-box3-2-2 {
+    width: 400px;
+    height: 20px;
+    font-size: 12px;
+    color: #666;
+    margin: 0 20px;
+}
+
+.yhz-box3-3 {
+    width: 440px;
+    height: 136px;
+    position: relative;
+}
+
+.yhz-box3-3-1 {
+    width: 300px;
+    height: 28px;
+}
+
+.yhz-box3-3-1 li {
+    float: left;
+}
+
+.yhz-bo1 {
+    width: 20px;
+    height: 20px;
+    border: 1px solid transparent;
+    margin: 2px 3px;
+}
+
+.yhz-boo1 {
+    width: 30px;
+    height: 20px;
+    border: 1px solid transparent;
+    margin: 2px 3px;
+}
+
+.yhz-boom1 {
+    position: relative;
+    bottom: 8px;
+}
+
+.yhz-box3-3-2 {
+    width: 100px;
+    height: 20px;
+    line-height: 20px;
+    border: 1px solid transparent;
+    margin: 2px 3px;
+    font-size: 13px;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.yhz-box3-3-2 li {
+    float: left;
+    margin: 0 1px;
+}
+
+.yhz-boom2 {
+    position: relative;
+    bottom: 4px;
+    left: 3px;
+}
+
+.yhz-txt {
+    width: 420px;
+    height: 69px;
+    background: #fbeede;
+    margin: 0 10px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    color: #666;
+}
+
+.yhz-box3-3-4 {
+    width: 160px;
+    height: 24px;
+    position: absolute;
+    right: 5px;
+    bottom: 10px;
+}
+
+.yhz-but {
+    width: 68px;
+    height: 24px;
+    color: #fff;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    background: #ea4848;
+    border-radius: 4px;
+}
+
+.yhz-btn {
+    width: 85px;
+    height: 24px;
+    color: #fff;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    background: #ea4848 url("images/fa.png") no-repeat 60px;
+    border-radius: 4px;
+    text-indent: -12px;
+}
+
+.qq-chat-my {
+    font-size: 12px;
+    color: #008040;
+    margin-top: 15px;
+    margin-left: 10px;
+}
+
+.qq-chat-ner {
+    font-size: 12px;
+    color: #666;
+    margin: 0 20px;
+}
