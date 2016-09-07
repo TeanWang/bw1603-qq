@@ -1,0 +1,71 @@
+.qq {width: 280px;height: 700px;position: fixed;top: 50%;right: 30px;background-color: #fff;border-radius: 4px;margin-top: -350px;box-shadow: 0 0 3px black;z-index: 8888}
+
+.i-head {height: 165px;background: url('../image/qq-bg.jpg') no-repeat;border-radius: 4px 4px 0 0;overflow: hidden}
+.qq-icon {width:100%;height: 28px}
+.qq-icon i {width: 50px;height: 18px;margin: 6px 6px;background: url('../image/qq-top.png') no-repeat;float: left}
+#i-min {width:24px;height:24px;padding:2px;background: url('../image/min1.png') no-repeat;float: right}
+#i-close {width:24px;height:24px;padding:2px;background: url('../image/close1.png') no-repeat;float: right}
+#i-min:hover {background: #3A95DE url('../image/min2.png') no-repeat}
+#i-close:hover {background: #EA4848 url('../image/close2.png') no-repeat}
+
+.qq-nickname {width:100%;height: 36px;margin-top: 26px}
+.qq-nickname span {font-size: 20px;text-indent: 10px;max-width: 140px;line-height: 36px;float: left}
+.qq-nickname span:hover {cursor: pointer}
+.qq-nickname dl {height:36px;float: left}
+.qq-nickname dd {float: left}
+#status {width:12px;height:12px;margin: 12px 0 12px 12px;background: url('../image/zai.png') no-repeat}
+#level {width:22px;height:10px;margin: 13px 0 13px 6px;background: url('../image/lv.png') no-repeat}
+#svip {width:30px;height:10px;margin: 13px 0 13px 6px;background: url('../image/svip.png') no-repeat}
+.qq-sign {width:260px;height: 17px;margin: 0 10px;line-height: 17px;font-size: 10px}
+.qq-sign span:hover {cursor: pointer}
+
+.qq-menu {width:264px;height: 20px;margin: 4px 8px}
+.qq-menu li {width: 20px;height: 20px;margin-right: 5px;float: left}
+.qq-menu li:hover {cursor: pointer;box-shadow: 0 0 2px #000000}
+#m-icon1 {background: url('../image/top-menu.png') left center}
+#m-icon2 {background: url('../image/top-menu.png') -20px center}
+#m-icon3 {background: url('../image/top-menu.png') -40px center}
+#m-icon4 {background: url('../image/top-menu.png') -61px center}
+
+#m-icon5 {margin-left: 5px;float: right;background: url('../image/top-menu.png') -100px center}
+#m-icon6 {margin-left: 5px;float: right;background: url('../image/top-menu.png') -80px center}
+
+.qq-serch {width:260px;height: 30px;padding: 0 10px;background: url('../image/serch.png') no-repeat 258px center rgba(0,0,0,.1);color: #555;font: 12px "Microsoft YaHei";line-height: 30px}
+
+
+.tab {height: 36px;border-bottom: 1px solid #ccc}
+.tab li {width: 25%;height: 36px;float: left;position: relative}
+.tab span {width:20px;height: 20px;margin: 8px 25px;display: block}
+#t-icon1 {background: url('../image/icon-02-01.png') center bottom}
+#t-icon1:hover {background: url('../image/icon-02-01.png') center}
+#t-icon2 {background: url('../image/icon-02-02.png') center top}
+#t-icon2:hover {background: url('../image/icon-02-02.png') center}
+#t-icon3 {background: url('../image/icon-02-03.png') center top}
+#t-icon3:hover {background: url('../image/icon-02-03.png') center}
+#t-icon4 {background: url('../image/icon-02-04.png') center top}
+#t-icon4:hover {background: url('../image/icon-02-04.png') center}
+.tab i {width: 16px;height: 6px;position: absolute;bottom: -1px;left: 50%;margin-left: -6px;background: url('../image/qq-xuan-jiao.png') no-repeat;display: none}
+#i1 {display: block}
+
+.item {height: 440px;border-bottom: 1px solid #ccc}
+.item ul {margin-top: -1px}
+.item li {height:54px;border-top: 1px solid #ccc}
+.item li:hover {background-color: #FDECAA}
+.i-imge {width: 40px;height: 40px;margin: 6px;border:1px solid #ccc;float: left}
+.i-imge img {width: 40px;height: 40px}
+.i-info {width: 226px;height: 40;margin: 7px 0;float: left;position: relative}
+.i-info span {display: block}
+.i-nick {height: 22px;font-size: 14px}
+.i-content {height: 18px;font-size: 12px;color: #999;overflow: hidden}
+.i-time {width:34px;height: 18px;font-size: 12px;position: absolute;right: 4px;top: 2px;color: #999}
+
+.foot {height: 58px;border-radius: 0 0 4px 4px}
+.f-menu {height: 20px;margin: 7px 0 6px 0}
+.f-conf {height: 20px}
+.f-menu li {width:20px;height: 20px;margin: 0 4px;float: left}
+.f-menu li img{width:100%;height: 100%}
+.f-conf li {height: 20px;margin: 0 5px;float: left}
+.f-conf li img {width:20px;height: 20px;float: left}
+.f-conf li span {line-height:20px;padding-left: 5px;font-size:12px;float: left;line-height: 20px}
+.f-menu li:hover {cursor: pointer;box-shadow: 0 0 2px #000000}
+.f-conf li:hover {cursor: pointer;box-shadow: 0 0 2px #000000}
