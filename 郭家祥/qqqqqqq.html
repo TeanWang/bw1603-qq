@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>QQ登陆界面</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<!--qq头像-->
+<div class="box">
+    <div class="img"><img src="images/QQ-ICON.png"></div>
+    <div class="qq">腾讯QQ</div>
+</div>
+<!--弹框-->
+<div class="alert">
+    <div class="qq-tuxiang pa"><img src="images/QQ1111.png"></div>
+    <div class="head" id="container">
+        <div id="anitOut"></div>
+        <div class="list pa">
+            <span class="shezhi" title="设置"></span>
+            <span class="little"></span>
+            <span class="close"></span>
+        </div>
+     </div>
+    <form action="QQ2用户界面.html" method="get" id="myForm">
+    <div class="login cf">
+        <div class="login-touxiang fl"><img src="images/head.jpg"></div>
+        <div class="login-form fl">
+            <div class="info cf">
+                <input type="text" placeholder="QQ号码/手机/邮箱" name="user" id="user">
+                <input type="password" placeholder="密码" name="pwd" id="pwd" class="pwd">
+            </div>
+            <div class="login-option cf">
+                <span class="fl pr"><input type="checkbox" id="rememberMe"><label for="rememberMe">记住密码</label></span>
+                <span class="fr pr"><input type="checkbox" id="autoLogin"><label for="autoLogin">自动登录</label></span>
+            </div>
+            <div class="login-btn">
+                <input type="submit" value="安全登录">
+            </div>
+        </div>
+        <div class="sign-up">
+            <a href="http://zc.qq.com/chs/index.html">注册账号</a>
+            <a href="https://aq.qq.com/cn2/findpsw/pc/pc_find_pwd_input_account?pw_type=0&aquin=">忘记密码</a>
+        </div>
+    </div>
+    </form>
+</div>
+
+
+<script src="jquery-1.11.3.min.js"></script>
+<script src="http://code.jquery.com/jquery-1.8.3.min.js"></script>
+<script type="text/javascript">
+    $(function () {
+        //双击
+        $('.box').dblclick(function () {
+            $('.alert').css('visibility','visible').slideToggle();
+        });
+        //////////////JS表示的INPTU 边框变化
+//        $('.info>input').hover(function () {
+//            $('#pwd').css('borderTopColor','blue')
+//        },function () {
+//            $('#pwd').css('borderTopColor','#d1d1d1')
+//        });
+        var tip;
+//        $('.shezhi').hover(function (e) {
+//           Tip('设置',e)
+//        },function () {
+//            tip.remove();
+//        });
+        $('.little').hover(function (e) {
+            setTimeout(Tip('最小化',e),2000);///???????????????????????????????????????/
+        },function () {
+            tip.remove();
+        });
+        $('.close').hover(function (e) {
+            Tip('关闭',e)
+        },function () {
+            tip.remove();
+        });
+        $('.close').click(function () {
+            $('.alert').animate({width:0,height:0},1500,function () {
+                $('.alert').animate({width:430,height:330 ,left:'50%',top:'50%'},0,function () {
+                    $('.alert').hide()
+                })
+            })
+        });
+        //背景动画
+        if (!window.ActiveXObject && !!document.createElement("canvas").getContext) {
+            $.getScript("http://im-img.qq.com/pcqq/js/200/cav.js?_=1428576021379",
+                    function () {
+                        var t = {
+                            width: 1.5,
+                            height: 1.5,
+                            depth: 10,
+                            segments: 12,
+                            slices: 6,
+                            xRange: 0.8,
+                            yRange: 0.1,
+                            zRange: 1,
+                            ambient: "#525252",
+                            diffuse: "#FFFFFF",
+                            speed: 0.0005
+                        };
+                        var G = {
+                            count: 2,
+                            xyScalar: 1,
+                            zOffset: 100,
+                            ambient: "#002c4a",
+                            diffuse: "#005584",
+                            speed: 0.001,
+                            gravity: 1200,
+                            dampening: 0.95,
+                            minLimit: 10,
+                            maxLimit: null,
+                            minDistance: 20,
+                            maxDistance: 400,
+                            autopilot: false,
+                            draw: false,
+                            bounds: CAV.Vector3.create(),
+                            step: CAV.Vector3.create(Math.randomInRange(0.2, 1), Math.randomInRange(0.2, 1), Math.randomInRange(0.2, 1))
+                        };
+                        var m = "canvas";
+                        var E = "svg";
+                        var x = {
+                            renderer: m
+                        };
+                        var i, n = Date.now();
+                        var L = CAV.Vector3.create();
+                        var k = CAV.Vector3.create();
+                        var z = document.getElementById("container");
+                        var w = document.getElementById("anitOut");
+                        var D, I, h, q, y;
+                        var g;
+                        var r;
+
+                        function C() {
+                            F();
+                            p();
+                            s();
+                            B();
+                            v();
+                            K(z.offsetWidth, z.offsetHeight);
+                            o()
+                        }
+
+                        function F() {
+                            g = new CAV.CanvasRenderer();
+                            H(x.renderer)
+                        }
+
+                        function H(N) {
+                            if (D) {
+                                w.removeChild(D.element)
+                            }
+                            switch (N) {
+                                case m:
+                                    D = g;
+                                    break
+                            }
+                            D.setSize(z.offsetWidth, z.offsetHeight);
+                            w.appendChild(D.element)
+                        }
+
+                        function p() {
+                            I = new CAV.Scene()
+                        }
+
+                        function s() {
+                            I.remove(h);
+                            D.clear();
+                            q = new CAV.Plane(t.width * D.width, t.height * D.height, t.segments, t.slices);
+                            y = new CAV.Material(t.ambient, t.diffuse);
+                            h = new CAV.Mesh(q, y);
+                            I.add(h);
+                            var N, O;
+                            for (N = q.vertices.length - 1; N >= 0; N--) {
+                                O = q.vertices[N];
+                                O.anchor = CAV.Vector3.clone(O.position);
+                                O.step = CAV.Vector3.create(Math.randomInRange(0.2, 1), Math.randomInRange(0.2, 1), Math.randomInRange(0.2, 1));
+                                O.time = Math.randomInRange(0, Math.PIM2)
+                            }
+                        }
+
+                        function B() {
+                            var O, N;
+                            for (O = I.lights.length - 1; O >= 0; O--) {
+                                N = I.lights[O];
+                                I.remove(N)
+                            }
+                            D.clear();
+                            for (O = 0; O < G.count; O++) {
+                                N = new CAV.Light(G.ambient, G.diffuse);
+                                N.ambientHex = N.ambient.format();
+                                N.diffuseHex = N.diffuse.format();
+                                I.add(N);
+                                N.mass = Math.randomInRange(0.5, 1);
+                                N.velocity = CAV.Vector3.create();
+                                N.acceleration = CAV.Vector3.create();
+                                N.force = CAV.Vector3.create()
+                            }
+                        }
+
+                        function K(O, N) {
+                            D.setSize(O, N);
+                            CAV.Vector3.set(L, D.halfWidth, D.halfHeight);
+                            s()
+                        }
+
+                        function o() {
+                            i = Date.now() - n;
+                            u();
+                            M();
+                            requestAnimationFrame(o)
+                        }
+
+                        function u() {
+                            var Q, P, O, R, T, V, U, S = t.depth / 2;
+                            CAV.Vector3.copy(G.bounds, L);
+                            CAV.Vector3.multiplyScalar(G.bounds, G.xyScalar);
+                            CAV.Vector3.setZ(k, G.zOffset);
+                            for (R = I.lights.length - 1; R >= 0; R--) {
+                                T = I.lights[R];
+                                CAV.Vector3.setZ(T.position, G.zOffset);
+                                var N = Math.clamp(CAV.Vector3.distanceSquared(T.position, k), G.minDistance, G.maxDistance);
+                                var W = G.gravity * T.mass / N;
+                                CAV.Vector3.subtractVectors(T.force, k, T.position);
+                                CAV.Vector3.normalise(T.force);
+                                CAV.Vector3.multiplyScalar(T.force, W);
+                                CAV.Vector3.set(T.acceleration);
+                                CAV.Vector3.add(T.acceleration, T.force);
+                                CAV.Vector3.add(T.velocity, T.acceleration);
+                                CAV.Vector3.multiplyScalar(T.velocity, G.dampening);
+                                CAV.Vector3.limit(T.velocity, G.minLimit, G.maxLimit);
+                                CAV.Vector3.add(T.position, T.velocity)
+                            }
+                            for (V = q.vertices.length - 1; V >= 0; V--) {
+                                U = q.vertices[V];
+                                Q = Math.sin(U.time + U.step[0] * i * t.speed);
+                                P = Math.cos(U.time + U.step[1] * i * t.speed);
+                                O = Math.sin(U.time + U.step[2] * i * t.speed);
+                                CAV.Vector3.set(U.position, t.xRange * q.segmentWidth * Q, t.yRange * q.sliceHeight * P, t.zRange * S * O - S);
+                                CAV.Vector3.add(U.position, U.anchor)
+                            }
+                            q.dirty = true
+                        }
+
+                        function M() {
+                            D.render(I)
+                        }
+
+                        function J(O) {
+                            var Q, N, S = O;
+                            var P = function (T) {
+                                for (Q = 0, l = I.lights.length; Q < l; Q++) {
+                                    N = I.lights[Q];
+                                    N.ambient.set(T);
+                                    N.ambientHex = N.ambient.format()
+                                }
+                            };
+                            var R = function (T) {
+                                for (Q = 0, l = I.lights.length; Q < l; Q++) {
+                                    N = I.lights[Q];
+                                    N.diffuse.set(T);
+                                    N.diffuseHex = N.diffuse.format()
+                                }
+                            };
+                            return {
+                                set: function () {
+                                    P(S[0]);
+                                    R(S[1])
+                                }
+                            }
+                        }
+
+                        function v() {
+                            window.addEventListener("resize", j)
+                        }
+
+                        function A(N) {
+                            CAV.Vector3.set(k, N.x, D.height - N.y);
+                            CAV.Vector3.subtract(k, L)
+                        }
+
+                        function j(N) {
+                            K(z.offsetWidth, z.offsetHeight);
+                            M()
+                        }
+
+                        C();
+                    })
+        } else {
+            alert('调用cav.js失败');
+        }
+        //拖动
+        $('.head').mousedown(function (e) {
+                    //获取当前X  Y
+                    var x = e.pageX;
+                    var y = e.pageY;
+                    var l = $('.alert').outerWidth() / 2 + $('.alert').offset().left;
+                    var t = $('.alert').outerHeight() / 2 + $('.alert').offset().top;
+                    $(document).on('mousemove', function (e) {
+                       var _x = e.pageX;
+                       var _y = e.pageY;
+                        $('.alert').css({left: _x - x + l, top: _y - y + t});
+                        return false
+                    });
+                    $(document).on('mouseup', function () {
+                        $(document).off('mousemove mouseup')
+                    });
+                    return false;
+                });
+        //表单验证以及提交
+        $('#myForm').submit(function () {
+            var user=$('#user').val();
+            var pwd=$('#pwd').val();
+            var reg=/^[1-9]\d{4,11}$/;
+            if(pwd==''){
+                alert('密码不能为空');
+                return false
+            }else if(!reg.test(user)){
+              alert('您输入的有误');
+                return false
+            }else{
+                return true
+            }
+        });
+        //公共函数TIP框
+        function Tip(msg,e) {
+            tip=$('<div style="position:fixed;font-size:12px;border:1px solid #333;color:#333;box-shadow: 0 0 2px #333;background:#fff">'+msg+'</div>');
+            $('body').append(tip);
+            var x=e.pageX;
+            var y=e.pageY;
+            tip.css({left:x+10,top:y+10});
+        }
+        //拖拽函数
+//        function Move(isDrag) {
+//            if (isDrag) {
+//                $('.alert').mousedown(function (e) {
+//                    //获取当前X  Y
+//                    var x = e.pageX;
+//                    var y = e.pageY;
+//                    var l = $('.alert').outerWidth() / 2 + $('.alert').offset().left;
+//                    var t = $('.alert').outerHeight() / 2 + $('.alert').offset().top;
+//                    $(document).on('mousemove', function (e) {
+//                       var _x = e.pageX;
+//                       var _y = e.pageY;
+//                        $('.alert').css({left: _x - x + l, top: _y - y + t});
+//                        return false
+//                    });
+//                    $(document).on('mouseup', function () {
+//                        $(document).off('mousemove mouseup')
+//                    });
+//                    return false;
+//                })
+//            }
+//        }
+        
+    });
+</script>
+
+
+
+
+
+</body>
+</html>
