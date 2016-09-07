@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="hz-cn">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="../../day30/dist/css/bootstrap.css">
+</head>
+<body>
+<div class="container-fluid" style="border: 1px solid orangered;">
+<div class="row">
+    <div class="col-md-4">.col-md-4</div>
+    <div class="col-md-4 col-md-offset-4">.col-md-4 .col-md-offset-4</div>
+</div>
+<div class="row">
+    <div class="col-md-3 col-md-offset-3">.col-md-3 .col-md-offset-3</div>
+    <div class="col-md-3 col-md-offset-3">.col-md-3 .col-md-offset-3</div>
+</div>
+<div class="row">
+    <div class="col-md-6 col-md-offset-3">.col-md-6 .col-md-offset-3</div>
+</div>
+<div class="row">
+    <div class="col-sm-9">
+        Level 1: .col-sm-9
+        <div class="row">
+            <div class="col-xs-8 col-sm-6">
+                Level 2: .col-xs-8 .col-sm-6
+            </div>
+            <div class="col-xs-4 col-sm-6">
+                Level 2: .col-xs-4 .col-sm-6
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-md-3" style="border: 1px solid blue">3个栅格单位</div>
+    <div class="col-md-3 col-md-offset-3" style="border: 1px solid red">向右偏移3个栅格单位</div>
+    <div class="col-md-3" style="border:1px solid yellow;">3个栅格单位</div>
+</div>
+    <div class="row">
+        <div class="col-sm-9">
+            Level 1: .col-sm-9
+            <div class="row">
+                <div class="col-xs-8 col-sm-6">
+                    Level 2: .col-xs-8 .col-sm-6
+                </div>
+                <div class="col-xs-4 col-sm-6">
+                    Level 2: .col-xs-4 .col-sm-6
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>
+<script src="../../day30/lib/jquery-1.11.3.min.js"></script>
+<script src="../../day30/dist/js/bootstrap.js"></script>
+
+</body>
+</html>
