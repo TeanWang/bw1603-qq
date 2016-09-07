@@ -1,0 +1,60 @@
+/*QQ主界面*/
+.qb-qq {width: 280px; height: 680px; border-radius: 4px; position: fixed; top: 10px; right: 30px; background: #fff; overflow: hidden; display: none}
+
+/*QQ界面顶部*/
+.qq-top {width: 100%; height: 143px; background: url("../images/baozou.bg.jpg") no-repeat 100px -15px; border-radius: 4px 4px 0 0}
+.qq-top-up div {width: 50px; height: 18px; margin: 5px 5px; float: left}
+.qq-top-up span {width: 28px; height: 28px; float: right; cursor: pointer}
+.qq-top-up .X:hover {background: #f00; opacity: .5}
+.qq-top-up .min:hover {background: #000; opacity: .1}
+.qq-top-name .qq-top-tx img {width: 60px; height: 60px; border-radius: 4px; border: 1px solid #f2f2f2; cursor: pointer; margin-left: 10px}
+.qq-top-name .qq-top-tx img:hover {border: 1px solid lightblue}
+.qq-top-name {padding: 10px 0 0}
+.qq-top-name .qq-top-tx, .qq-top-name span, .qq-top-name li {float: left}
+.qq-top-name span {font-size: 14px; font-weight: bold; margin-left: 5px}
+.qq-top-name .zai {width:12px; height: 12px; margin: 2px 15px 0 10px; padding: 1px; border: 1px solid transparent}
+.qq-top-name .lv {width: 22px; height: 10px}
+.qq-top-name .svip {width: 30px; height: 10px}
+.qq-top-name .lv,.qq-top-name .svip {margin: 3px 1px 0 1px; padding: 1px; border: 1px solid transparent}
+.qq-top-name .zai:hover, .qq-top-name .lv:hover, .qq-top-name .svip:hover {border-color: #ccc}
+.qq-top-name .qq-top-qm input {margin: 2px 5px; background: none; border: 0 none; font-size: 14px}
+.qq-top-menu li {width: 20px; height: 20px; margin-left: 5px; cursor: pointer; background: url("../images/top-menu.png") no-repeat; border: 1px solid transparent}
+.qq-top-menu li:hover {border-color: #ccc}
+.qq-top-menu .tu5, .qq-top-menu .tu6 {float: right}
+.qq-top-menu .tu5 {margin-right: 10px}
+.qq-top-menu .tu2 {background-position: -20px center}
+.qq-top-menu .tu3 {background-position: -40px center}
+.qq-top-menu .tu4 {background-position: -60px center}
+.qq-top-menu .tu5 {background-position: -100px center}
+.qq-top-menu .tu6 {background-position: -80px center}
+.qq-top-ss input {width: 235px; height: 27px; border: 0 none; background: none}
+.qq-top-ss {height: 30px; line-height: 30px; padding: 0 10px; color: #555; background: url("../images/serch.png") no-repeat 255px center rgba(0,0,0,.1)}
+.qq-top-choose {width: 100%; height: 36px; border-bottom: 1px solid #ccc}
+.qq-top-choose li {width: 20px; height: 20px; margin: 8px 25px 0; cursor: pointer; float: left; position: relative; overflow: hidden}
+.qq-top-choose-li {position: relative; top: -40px}
+.qq-top-choose span {position: relative}
+
+/*QQ界面主体*/
+.qq-body {margin-top: 5px; position: relative}
+.sjx {width: 12px; height: 6px; background: url("../images/qq-xuan-jiao.png") no-repeat left center; position: absolute; left: 30px; top: -7px}
+.qq-body ul li {width: 100%; height: 54px; border-bottom: 1px solid #ccc}
+.qq-body ul li:hover {background: lightgoldenrodyellow;}
+.qq-body-img {width: 40px; height: 40px; border: 1px solid #ccc; border-radius: 4px; }
+.qq-body ul li img {width: 40px; height: 40px}
+.qq-body div {float: left}
+.qq-body-img {margin: 6px}
+.qq-body .qq-haoyou {width: 226px; height: 20px; line-height: 20px; margin: 5px 0}
+.qq-body .qq-hao1 {float: left; font-size: 14px}
+.qq-body .qq-hao2 {float: right; color: #999; margin-right: 10px}
+.qq-body .qq-talk {color: #999}
+
+/*QQ界面底部*/
+.qq-bottom .qq-bottom-menu1 li {width: 18px; height: 18px; float: left; cursor: pointer; margin: 5px 4px 0; border: 1px solid transparent}
+.qq-bottom .qq-bottom-menu1 li img {width: 18px; height: 18px; float: left}
+.qq-bottom .qq-bottom-menu2 li {width: 20px; height: 20px; float: left; cursor: pointer; margin: 5px 3px 0; border: 1px solid transparent}
+.qq-bottom .qq-bottom-menu2 li img {width: 20px; height: 20px; float: left}
+.qq-bottom li:hover {border-color: #ccc}
+.qq-bottom .qq-bottom-menu2 .cz {width: 50px; margin-left: 7px}
+.qq-bottom .qq-bottom-menu2 .yyb {width: 65px; margin-left: 7px}
+.qq-bottom .qq-bottom-menu2 span {float: left; line-height: 20px; margin-left: 5px}
+

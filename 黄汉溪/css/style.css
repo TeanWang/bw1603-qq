@@ -1,0 +1,178 @@
+*{margin: 0;padding: 0}
+ul li {list-style-type: none}
+.cf:after{content: '';display: table;clear: both}
+a{text-decoration: none}
+body{font-family: '微软雅黑';font-size: 14px}
+
+.show{
+    background: url("../images/nodejs-1920x1200.png") no-repeat;
+    width: 100%;height: 100%;position: fixed;
+}
+
+.box{
+    width: 80px;height: 80px;
+    text-align: center;
+    padding: 5px;
+    position: absolute;
+    left: 20px;
+    top: 30px;
+    display: block;
+}
+.box:hover{
+    background: rgba(234,241,255,.5); border-radius: 5px
+}
+.img{
+    width: 80px;height: 53px;
+    text-align: center;
+}
+
+.img img{
+    width: 50px;height: 50px
+}
+.qq{
+    width: 80px;height: 30px;line-height: 30px;
+    margin-top: 0px;
+    color: #fff;
+    text-shadow: 2px 2px 2px #000
+}
+/*---------------------------------------------*/
+
+.alert{
+    width: 430px;height: 330px;
+    position: absolute;
+    margin-left:-215px;left: 50%;
+    margin-top: -165px;
+    top:50%;
+    display: none;
+
+}
+.head{
+    width: 430px;height: 182px;
+    margin: 0;
+    background: url("../images/qq-login-bg.jpg") no-repeat;
+
+}
+.bt{
+
+    float: right;
+    width: 90px;height: 30px;
+
+
+}
+.bt span{
+    background: url("../images/wins.png") no-repeat center left ;
+    width: 30px;height: 30px;
+    float: left;
+}
+.bt .d1:hover{background-color:#3a95de}
+.bt .d2{
+    background-position: -30px;
+}
+.bt .d2:hover{background-color:#3a95de}
+.bt .d3 {
+    background-position: -90px;
+
+}
+.bt .d3:hover{background-color:#3a95de}
+.body{
+    width: 430px;
+    height:150px ;
+
+    background:#dfdfdf ;
+}
+.log{
+    width: 131px;height: 95px;
+    text-align: right;
+    vertical-align: bottom;
+    float: left;
+}
+.log img{
+    width: 80px;height: 80px;
+    padding-top: 10px;
+    padding-right: 10px;
+}
+
+.form{
+    width: 194px;height: 125px;
+    border: 1px solid #dddddd;
+    float: left;
+    margin-top: 12px;
+}
+.text{
+    margin:0;
+
+
+}
+.text input{
+    width: 178px;
+    height: 28px;
+    line-height:28px;
+    padding:0 7px;
+    outline: none;
+    border: 1px solid #d1d1d1;
+
+}
+.text .t {
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+.text .t:hover {border-color: #2786e4}
+
+.text .pwd{
+    border-top: none;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+
+}
+.text .pwd:hover {
+
+    border-color: #2786e4
+}
+.text .pwd:hover +.t{border-bottom-color: #2786e4}
+.input{
+    width: 194px;
+    height: 15px;
+    display: block;
+    margin-top: 5px;
+    font-size: 12px;
+}
+.input input{
+    width: 14px;
+    height: 14px;
+    vertical-align: middle;
+}
+.input label{
+    padding-left: 4px;
+}
+.fl{
+    float: left;
+
+}
+.fr{
+    float: right;
+}
+.but input{
+    border: none;
+    border-radius: 4px;
+    width: 100%;
+    height: 30px;
+    color: #fff;
+    background: #09a3dc;
+    margin-top: 10px;
+}
+
+
+.zc{
+    width: 80px;height: 60px;
+    font-size: 12px;
+    float: left;
+    margin:10px;
+}
+.zc a{
+    width: 48px;height: 30px;
+    display: block;
+    line-height: 30px;
+    color: #2786e4;
+}
+
+/*----------------------------------------------*/
