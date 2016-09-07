@@ -1,0 +1,134 @@
+*{padding: 0;margin: 0}
+body{background: #2b3d51;font-family: '微软雅黑'; font-size: 12px;color:#333}
+.QQ{margin: 30px;}
+ul{list-style-type: none}
+html{height:100%;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;}
+.QQ img{width: 60px;heigth:60px;}
+img{vertical-align: top}
+i,span{-webkit-transition: all 0.5s; -ms-transition: all 0.5s;font-style: normal}
+.dl{width:430px;height:330px;background: url("../images/qq-login-bg.jpg") no-repeat;position: fixed;top: 200px;left:50%;margin-left: -215px;border-radius: 3px;display: none;z-index: 3}
+.dl .top-right{width: 98px;height:30px;position: absolute;right: -1px;top: 0}
+.dl .top-right span{background: url("../images/wins.png");display: inline-block;height: 30px;width: 30px;}
+.dl .top-right span:nth-child(1){background-position: left center;}
+.dl .top-right span:nth-child(2){background-position: -30px center}
+.dl .top-right span:nth-child(3){background-position: -90px center}
+.dl .top-right span:hover{background-color: #3a95de; -webkit-transition: all 0.5s;}
+.dl .top-right .x:hover{background-color: #ea4848;-webkit-transition: all 0.5s;}
+.dl .left{width: 133px;height: 148px;}
+.dl .left img{margin-left: 43px;margin-top: 15px;border: 1px solid #ccc}
+.dl .bottom{position: absolute;background: #ebf2f9;bottom: 0;left: 0;width: 430px;height: 148px;}
+.dl .bottom div{float: left}
+.cf:after{content: '';display: table;clear: both;}
+.dl .middle .input{display: block;width: 178px;height: 28px;padding: 0 7px; border: 1px solid #ccc;outline: none;font-family: '微软雅黑';}
+.dl .middle input{cursor:pointer}
+.dl .password{margin-top: -1px}
+.dl .middle{width: 194px;height: 118px;padding: 15px 0}
+.dl .middle p{padding: 10px 0;line-height: 12px;}
+.dl .middle i{font-style: normal;display: inline-block}
+.dl .bl{margin-left: 5px}
+.fr{float: right}
+.fl{float: left}
+.dl .br{margin-left: 60px}
+.dl .submit{outline: none;border: 0 none;display: block;width: 194px;height: 30px;border-radius: 2px;background: #09a3dc;color: #fff;}
+.dl .right a{display: block; text-decoration: none;color: #2786e4;line-height: 30px;padding-left: 10px;}
+.dl .right{margin-top: 15px}
+.talk{width: 280px;position: fixed;top: 20px;right: 30px;border-radius:3px;background-color: #fff;display: none;height: 0;z-index: 1}
+.talk .top{background: url("../images/qq-bg.jpg") no-repeat;height: 165px;border-radius:3px;}
+.talk .top1{height: 28px;width: 100%; }
+.talk .top1 i {display: inline-block;margin:5px 0 0 5px; }
+.talk .top1 span{display: inline-block;width: 28px;height: 28px;float: right;}
+.talk .top1 .span1:hover{background-color: rgba(234,72,72,.8)}
+.talk .top1 .span2:hover{background-color: rgba(0,0,0,.1)}
+.qq-name span{display:inline-block;height: 36px;width: 90px;font-size: 20px;  text-indent: 10px;  line-height: 36px;  float: left;  cursor: pointer;}
+.qq-name{margin-top: 26px;height: 36px}
+.qq-name dt {float: left; width: 12px; height:12px; padding: 4px;margin: 8px 0 8px 8px;}
+.qq-name dd {float: left; height: 10px; margin:11px 0; padding: 2px 2px;}
+.qq-name dd:hover, .qq-name dt:hover {box-shadow: 0 0 2px #000;}
+.top input {width:260px; height: 17px;  background: none;  line-height: 12px;  color: #333;  font-size: 10px;  text-shadow: 0 0 2px #fff;
+    outline: none; cursor: pointer;font-family: "微软雅黑";border: 0 none;margin: 0 10px;}
+.menu{width: 264px;height: 20px;margin: 4px 8px;}
+.menu ul{display: inline-block}
+.menu li {display: inline-block;float: left;  width: 20px;  height: 20px;  background-image: url('../images/top-menu.png');  cursor: pointer;margin-right:5px;}
+.menu li:nth-child(1) {background-position: left center;}
+.menu li:nth-child(2) {background-position: -20px center;}
+.menu li:nth-child(3) {background-position: -40px center;}
+.menu li:nth-child(4) {background-position: -60px center;}
+.menu span {float:right;  width: 20px;  height: 20px;  background-image: url("../images/top-menu.png");  cursor: pointer; margin-left: 5px;}
+.menu .span1{background-position: -100px center;}
+.menu .span2 {background-position: -80px center;}
+.menu li:hover,.menu span:hover{box-shadow: 0 0 2px #000;}
+.top .search{height: 30px;background: rgba(0,0,0,.1);}
+.top .search{position: relative}
+.top .search input{cursor: text;height: 18px;margin: 6px 0 6px 10px;color:#222}
+.top .search span{width: 15px;height: 14px;display: inline-block;right: 10px;top:8px;position: absolute;cursor: pointer}
+.contacts li{float: left;cursor: pointer}
+.contacts span{display: inline-block;width: 20px; height:20px; margin: 8px 25px;}
+.contacts li:nth-child(1) span{background: url("../images/icon-02-01.png");background-position: center top;}
+.contacts li:nth-child(2) span {background-image: url("../images/icon-02-02.png");  background-position: center top;}
+.contacts li:nth-child(3) span {background-image: url("../images/icon-02-03.png");  background-position: center top;}
+.contacts li:nth-child(4) span {background-image: url("../images/icon-02-04.png");  background-position: center top;}
+.contacts .first-one span{background-position: center bottom!important;}
+.contacts li i {  width: 12px;  height: 6px;  position: absolute;  bottom: -1px;  left: 50%;  margin-left: -6px; -webkit-transition: all 0.5s;}
+.contacts li{position: relative;-webkit-transition: all 0.5s;}
+.contacts .first-one i{background: url("../images/qq-xuan-jiao.png");}
+.contacts  li:hover span{background-position:center center;-webkit-transition: all 0.5s;}
+.history{width:280px;height:440px;overflow: hidden}
+.history .img{width: 42px;height: 42px;margin: 6px}
+.history .img,.history .name,.history.info{float: left;}
+.history .name{width: 226px;height: 20px;line-height: 20px;margin-top: 7px}
+.history .name span{font-size: 14px;color: #333;}
+.history .name i {float: right;font-size: 10px; color: #999; margin-right: 8px;}
+.history .info {width: 216px;height: 27px;line-height: 27px;color: #999;overflow: hidden;  }
+.history .img img{width: 40px;height: 40px; border: 1px solid #fff;  border-radius: 4px;  overflow: hidden;  -webkit-transition: all 0.5s;  }
+.history li{border-top: 1px solid #ccc;height: 54px;-webkit-transition: all 0.5s;cursor: default}
+.history li:hover {background: #fdecaa;  border-top:  1px solid #e8d691;}
+.history li:hover img{border: 1px solid #aacec4;}
+.talk .bottom{width: 100%;height: 58px;border-radius: 0 0 4px 4px;float: left;background: #f0f3f5;}
+.talk  .bottom .bottom1{width: 100%;float: left; height: 20px;margin: 7px 0 6px 0;}
+.talk  .bottom .bottom1 img{vertical-align: top}
+.talk  .bottom .bottom1 li:hover{box-shadow: 0 0 2px #000;}
+.talk  .bottom .bottom2{float: left; width: 100%;height: 20px;}
+.talk  .bottom{border-top:1px solid #ccc}
+.talk  .bottom li img{width:20px;height:20px; vertical-align: middle}
+.talk  .bottom li{float:left;display: inline-block;margin: 0 4px;height:20px;line-height: 20px}
+.talk  .bottom .bottom2 li{margin: 0 5px;}
+.talk  .bottom li span{display: inline-block;height:20px;padding-left: 5px}
+.talk  .bottom img{width: 20px;height:20px;}
+.window{margin:0 0 -220px -220px;height: 510px;width: 440px;z-index: 2 ;position: fixed;left: 50%;bottom:50%;background-color: #fbeede;border-radius: 3px;display: none}
+.window .top-right{float: right}
+.window .top-right span{display:inline-block ;float: right;background: url("../images/win.png") no-repeat;width:30px;height:27px;cursor: pointer;}
+.window .top-right span:hover{background-image:  url("../images/wins.png");background-color:  #3a95de}
+.window .top-right span:nth-child(1){background-position: right center}
+.window .top-right span:nth-child(2){background-position: -60px center}
+.window .top-right span:nth-child(3){background-position: -30px center}
+.window .top-right span:nth-child(4){background-position:  left center}
+.window .top-right .top-x:hover{background-color: #ea4848;}
+.window .top{width: 440px;height:80px;background:url("../images/box-bg.jpg") no-repeat right -4px;border-bottom: 1px solid #ccc}
+.window .top-t{width: 440px;height: 42px;margin: 4px 0;color:#333}
+.top-t .head-img img{width:40px;height:40px;border: 1px solid #fff;margin: 0 10px;box-shadow: 0 0 3px #999;vertical-align: top;overflow: hidden;}
+.top-t .head-img,.top-t .text,.top-t .info{float:left;}
+.top-t .name{width: 260px;height:24px;line-height: 24px;font-size: 18px;}
+.top-t .info{width: 260px;height:18px;line-height: 18px;font-size: 10px;}
+.window .top-icon img{width: 26px;height: 26px}
+.window .top-icon li{float: left;margin: 2px 5px}
+.window .qq-info{height: 290px;overflow-y: scroll}
+.window .qq-enter{height: 135px;border-top: 1px solid #ccc}
+.window .qq-info .name-time{color: #0034fa;height: 20px;line-height: 20px;}
+.window .qq-info .name-time span{margin: 0 10px}
+.window .qq-info .chat-info{line-height: 20px;height: 20px;margin: 0 20px}
+.window .qq-info ul{height:66px;padding: 10px 0;}
+.window .qq-info li{margin: 3px 0}
+.window .qq-enter li{float: left;margin: 3px 0 3px 5px;height: 20px;border: 1px solid rgba(0,0,0,0);-webkit-transition: all 0.5s;border-radius: 2px;}
+.window .qq-enter ul li i{background: url("../images/icon-00.png") no-repeat center center;width: 8px;height: 20px;float: left;margin: 0 2px;}
+.window .qq-enter li span{width: 20px;height: 20px;float: left;}
+#text{width: 420px;height: 69px;max-width: 420px;max-height: 69px;float: left;margin: 0 10px;background: none;line-height: 20px;
+    outline: none; cursor: pointer;color: #999;padding: 0;border: none;}
+.window .qq-enter li:hover{border: 1px solid #ccc;}
+.window .qq-enter .fr{float: right;margin: 3px 0 3px 5px;width:86px;border: 1px solid rgba(0,0,0,0);-webkit-transition: all 0.5s;border-radius: 2px;}
+.enter-close span:nth-child(1) {padding-right: 34px;background: #ea4848 url("../images/fa.png") 60px center no-repeat}
+.enter-close span{padding: 0 14px;line-height: 24px;height: 24px;float: right; margin: 7px 4px 7px 0; background: #ea4848; border-radius: 4px;color: #fff; cursor: pointer;}
+.window .qq-enter .fr p{float: left;padding: 0 3px;line-height: 20px;cursor: context-menu;}
+.qq-chat-my span,.qq-info .name-time span{float:left;margin:0 10px;}
+.qq-chat-my i,.qq-chat-my span{color:#008040}
+.qq-chat-ner{color:#666;width:400px;margin:0 20px;}
+.qq-chat-ner img{max-width:100%;max-heiht:260px;width:auto;height:auto;}

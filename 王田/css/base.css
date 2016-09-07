@@ -1,0 +1,10 @@
+* {margin:0; padding: 0}
+body {font-size:14px; font-family: Arial, "Microsoft YaHei"; color:#333;}
+ul,li {list-style-type: none}
+a {color:#333; text-decoration: none}
+
+.cf:after {content: ''; clear: both; display: table}
+.cf {*zoom:1;}
+
+.fl {float:left}
+.fr {float:right}
