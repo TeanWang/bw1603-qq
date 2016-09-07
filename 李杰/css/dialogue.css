@@ -30,7 +30,7 @@
 #func1:hover,#func2:hover,#func3:hover,#func4:hover,#func5:hover,#func6:hover,#func7:hover {margin: 3px 6px;border: 1px solid gray}
 
 .show {width:440px;height: 270px;overflow-y: scroll;border-bottom: 1px solid #ccc;padding: 10px}
-.show span {color: green;font-size: 14px}
+.show span {color: green;font-size: 12px}
 
 .content {height: 134px}
 .menu {height: 28px;position: relative}
@@ -50,6 +50,8 @@
 
 .write {height: 70px}
 .write textarea {width:444px;height:70px;border: 0 none;outline: none;margin: 0 8px;background: #FBEEDE}
+.nt {font: 12px green}
+.s_content {text-indent:1em}
 
 .btn {height: 36px;position: relative}
 #clswin {width: 64px;height: 26px;font-size: 12px;color: #FFFFFF;line-height: 26px;background-color: #EA4848;
