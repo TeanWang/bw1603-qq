@@ -1,0 +1,10 @@
+* {margin: 0;padding: 0}
+ul,li {list-style-type: none}
+
+body {width: 100%;height:100%;position: relative;background-color: #2b3d51;font-family: "Microsoft YaHei"}
+a{color:#333;text-decoration:none}
+.qq-exe {width: 60px;height: 90px;margin: 20px}
+.qq-exe img {width: 60px;height: 60px}
+.qq-exe span {width: 60px;height: 20px;color:#fff;text-align: center;line-height: 20px;margin: 0 auto}
+
+.win-logo{width: 600px;height: 218px;position: fixed;top:50%;left:50%;margin: -109px 0 0 -300px}
