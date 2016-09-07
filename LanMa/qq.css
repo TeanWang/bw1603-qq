@@ -1,0 +1,274 @@
+/*背景图*/
+body {
+    width: 1366px;
+    height: 666px;
+    background: url('images/pageBackground/back4.jpg') no-repeat;
+    position: relative;
+}
+
+/*桌面——QQ图标定位及背景*/
+#qq {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    width: 90px;
+    height: 90px;
+}
+
+#qq:hover {
+    background: #666;
+    border-radius: 10%;
+}
+
+/*桌面——QQ图标大小及文字*/
+.qq_log {
+    width: 60px;
+    height: 60px;
+    margin-left: 15px;
+}
+
+.qq_log dt img {
+    width: 60px;
+    height: 60px;
+    margin-top: 5px;
+    cursor: pointer;
+}
+
+.qq_log dd {
+    margin-top: 5px;
+    text-align: center;
+    color: #fff;
+    font-size: 14px;
+}
+
+/*QQ登录界面——定位及背景*/
+.qq_box {
+    width: 430px;
+    height: 330px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    margin: -165px auto auto -215px;
+    border-radius: 3px;
+    background: #ebf2f9 url('images/loginLayer/qq-login-bg.jpg') no-repeat;
+    z-index: 1;
+}
+
+/*QQ登录界面——菜单*/
+.qq_menu {
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.menu_set, .menu_small, .menu_close {
+    background: url("images/loginLayer/wins.png") no-repeat left center;
+    width: 30px;
+    height: 30px;
+    float: left;
+    border-radius: 2px;
+}
+
+.menu_small {
+    background-position: -30px center;
+}
+
+.menu_close {
+    background-position: -90px center;
+}
+
+.menu_close:hover {
+    background-color: red;
+}
+
+.menu_set:hover, .menu_small:hover {
+    background-color: #3a95de;
+}
+
+/*QQ登录界面——表单*/
+.qq_input {
+    width: 100%;
+    height: 125px;
+    position: absolute;
+    top: 194px;
+    left: 0;
+}
+
+.input_img {
+    float: left;
+    width: 131px;
+    height: 80px;
+    position: relative;
+}
+
+.input_img li {
+    float: left;
+    width: 80px;
+    height: 80px;
+    margin-left: 40px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.input_img li img {
+    width: 80px;
+    height: 80px;
+    border-radius: 3px;
+}
+
+/*表单*/
+.input_all {
+    float: left;
+    width: 194px;
+    height: 125px;
+}
+
+/*表单——用户名及密码*/
+.name_pwd {
+    position: relative;
+}
+
+.name_pwd input {
+    border: 1px solid #d1d1d1;
+    float: left;
+    width: 178px;
+    height: 28px;
+    font-size: 12px;
+    padding: 0 7px;
+}
+
+.name_pwd input:nth-child(1) {
+    border-radius: 4px 4px 0 0;
+}
+
+.name_pwd input:nth-child(2) {
+    border-radius: 0 0 4px 4px;
+    margin-top: -1px;
+}
+
+/*表单——用户名及密码为空时点击登录弹出来的提示框*/
+.tip {
+    position: absolute;
+    top: 20px;
+    left: -32px;
+    width: 131px;
+    height: 27px;
+    line-height: 27px;
+    text-align: center;
+    border: 1px solid #588297;
+    border-radius: 3px;
+    background: #fff;
+    display: none;
+}
+
+.tip:before {
+    content: '';
+    display: block;
+    border: 5px solid transparent;
+    border-bottom-color: #588297;
+    position: absolute;
+    top: -10px;
+    left: 28px;
+}
+
+/*表单——复选框*/
+.check-box {
+    margin-top: 8px;
+}
+
+.check-box .left {
+    float: left;
+}
+
+.check-box .right {
+    float: right;
+}
+
+.check-box li label {
+    padding-left: 4px;
+    line-height: 14px;
+    cursor: pointer;
+}
+
+.check-box li input {
+    vertical-align: middle;
+    width: 14px; /*height:14px;*/
+    cursor: pointer;
+}
+
+/*表单——按钮*/
+.safe_land {
+    margin-top: 10px;
+    width: 100%;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    letter-spacing: 5px;
+    color: #fff;
+    background: #09a3dc;
+    border-radius: 4px;
+    cursor: pointer;
+    z-index: 10;
+}
+
+.safe_land:hover {
+    background: #3cc3f5;
+}
+
+.register_back {
+    float: right;
+}
+
+.register_back li {
+    width: 103px;
+    height: 30px;
+    line-height: 30px;
+    text-indent: 10px;
+}
+
+.register_back li a {
+    color: #2786e4;
+}
+
+/*桌面——导航*/
+.nav-bottom {
+    width: 100%;
+    height: 40px;
+    background: #000;
+    opacity: .7;
+    filter: alpha(opacity=70);
+    position: fixed;
+    bottom: 0;
+    left: 0;
+}
+
+.imgRight {
+    float: right;
+    width: 319px;
+    height: 40px;
+}
+
+.img_qq {
+    width: 24px;
+    height: 40px;
+    display: none;
+}
+
+.img_qq span {
+    display: block;
+    width: 16px;
+    height: 16px;
+    background: url("images/loginLayer/qqIconSmall.png") no-repeat right center;
+    padding: 12px 0;
+    margin-left: 4px;
+}
+
+.img_qq:hover {
+    background: rgba(255, 255, 255, .5)
+}
+
+
+
+
+

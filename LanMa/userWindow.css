@@ -1,0 +1,441 @@
+/*!*背景图*!
+body { width: 1366px; height: 666px; background: url('images/pageBackground/back4.jpg') no-repeat; position: relative;}*/
+
+/*登录成功后的用户界面——定位及背景*/
+#userWindow {
+    width: 279px;
+    height: 695px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    margin: -352px auto auto -150px;
+    border: 1px solid #3b3b3b;
+    border-radius: 4px;
+    background: #fff;
+    display: none;
+}
+
+/*用户界面——顶部的皮肤及图标*/
+.top {
+    background: url('images/user/qqBagr01.jpg') no-repeat;
+    width: 279px;
+    height: 166px;
+    position: relative;
+    border-radius: 3px 3px 0 0;
+}
+
+.top p {
+    float: left;
+    width: 40px;
+    height: 16px;
+    margin-top: 5px;
+    margin-left: 8px;
+}
+
+.top p img {
+    width: 40px;
+    height: 16px
+}
+
+/*用户界面——顶部的 _ X (最小化和关闭)*/
+.head {
+    float: right;
+}
+
+.head li {
+    float: left;
+    width: 25px;
+    height: 23px;
+}
+
+.head li img {
+    width: 25px;
+    height: 23px;
+}
+
+.head-small:hover {
+    background: #fff;
+}
+
+.head-shut:hover {
+    background: #d44027;
+}
+
+.middle {
+    margin-top: 33px;
+    height: 30px;
+}
+
+.middle-word {
+    float: left;
+    font-size: 20px;
+    line-height: 30px;
+    text-indent: 10px;
+    cursor: default;
+}
+
+.middle-img {
+    float: left;
+    height: 30px;
+}
+
+.middle-img dt {
+    float: left;
+    width: 12px;
+    height: 12px;
+    padding: 4px;
+    margin: 8px 0 8px 2px;
+}
+
+.middle-img dd {
+    float: left;
+    height: 10px;
+    padding: 2px 2px;
+    margin: 11px 0;
+}
+
+.middle-img dt:hover, .middle-img dd:hover {
+    box-shadow: 1px 1px 2px black;
+}
+
+.oInput {
+    height: 24px;
+    padding-left: 8px;
+}
+
+.oInput-bor {
+    border: 1px solid transparent;
+    width: 203px;
+}
+
+.oInput input {
+    border: 1px solid transparent;
+    width: 201px;
+    height: 20px;
+    background-color: inherit;
+    font-size: 13px;
+}
+
+.oInput-bor:hover {
+    border: 1px solid #666;
+}
+
+.icon {
+    float: left;
+    width: 264px;
+    height: 20px;
+    margin: 4px 8px;
+}
+
+.icon li {
+    float: left;
+    width: 20px;
+    height: 20px;
+    background-image: url("images/user/icon.png");
+    margin-right: 5px;
+    cursor: default;
+}
+
+.icon li:nth-child(1) {
+    background-position: 0 center;
+}
+
+.icon li:nth-child(2) {
+    background-position: -40px center;
+}
+
+.icon li:nth-child(3) {
+    background-position: -20px center;
+}
+
+.icon li:nth-child(4) {
+    background-position: -60px center;
+}
+
+.icon li:hover {
+    box-shadow: 1px 1px 2px black;
+}
+
+.icon span {
+    float: right;
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+    cursor: default;
+    background-image: url("images/user/icon.png");
+    display: block;
+}
+
+.icon .icon-one {
+    background-position: 20px center;
+}
+
+.icon .icon-two {
+    background-position: 40px center;
+}
+
+.icon span:hover {
+    box-shadow: 1px 1px 2px black;
+}
+
+.search {
+    float: left;
+    width: 100%;
+    height: 30px;
+    line-height: 30px;
+    color: #555;
+    background: url("images/user/search.png") no-repeat 258px center rgba(0, 0, 0, .1);
+    position: relative;
+    cursor: default;
+}
+
+.search input {
+    width: 100%;
+    height: 100%;
+    background: inherit;
+    text-indent: 10px;
+    font-size: 13px;
+}
+
+.search .search-word {
+    position: absolute;
+    top: 0;
+    left: 12px;
+    color: #fff;
+}
+
+.choice {
+    width: 279px;
+    height: 36px;
+    border-bottom: 1px solid #ccc;
+}
+
+.choice li {
+    float: left;
+    width: 22px;
+    height: 36px;
+    position: relative;
+    margin: 0 12px;
+}
+
+.choice span {
+    float: left;
+    width: 20px;
+    height: 20px;
+    margin: 6px 1px;
+}
+
+.choice li:nth-child(1) span {
+    background-image: url('images/user/manV.jpg');
+    background-position: center left;
+}
+
+.choice li:nth-child(2) span {
+    background-image: url('images/user/room.jpg');
+    background-position: center left;
+}
+
+.choice li:nth-child(3) span {
+    background-image: url('images/user/menV.jpg');
+    background-position: center left;
+}
+
+.choice li:nth-child(4) span {
+    background-image: url('images/user/cRom.jpg');
+    background-position: center left;
+}
+
+.choice li:nth-child(5) span {
+    background-image: url('images/user/talk.jpg');
+    background-position: center left;
+}
+
+.choice li:nth-child(6) span {
+    background-image: url('images/user/phon.jpg');
+    background-position: center left;
+}
+
+.choice-img span {
+    background-position: center right !important;
+}
+
+.choice-img i {
+    background: url("images/user/choiceIcn.png") no-repeat;
+}
+
+.choice li i {
+    width: 12px;
+    height: 6px;
+    position: absolute;
+    bottom: 1px;
+    left: 49%;
+    margin-left: -6px;
+}
+
+.center {
+    width: 100%;
+    height: 438px;
+    border-bottom: 1px solid #ccc;
+    overflow-y: scroll;
+}
+
+.center ul {
+    margin-top: -1px;
+}
+
+.center li {
+    width: 279px;
+    height: 53px;
+    border-top: 1px solid #ccc;
+    cursor: default;
+}
+
+.center li:hover {
+    background: rgba(255, 102, 0, .4);
+}
+
+.friend-img {
+    float: left;
+    width: 40px;
+    height: 40px;
+    margin: 6px;
+    overflow: hidden;
+}
+
+.friend-img img {
+    width: 40px;
+    height: 40px;
+    border-radius: 4px;
+}
+
+.friend-name {
+    float: left;
+    width: 210px;
+    height: 20px;
+    line-height: 20px;
+    margin-top: 7px;
+}
+
+.friend-name span {
+    float: left;
+    font-size: 14px;
+}
+
+.friend-name i {
+    float: right;
+    font-size: 10px;
+    color: #999;
+    margin-right: 8px;
+}
+
+.friend-talk {
+    float: left;
+    width: 210px;
+    height: 27px;
+    line-height: 27px;
+    color: #999;
+    overflow: hidden;
+}
+
+.bottom {
+    width: 279px;
+    height: 52px;
+    border-top: 1px solid transparent;
+    background: #f0f3f5;
+}
+
+.bottom-one {
+    width: 279px;
+    height: 20px;
+    margin: 7px 0 6px 0;
+}
+
+.bottom-one li {
+    float: left;
+    width: 20px;
+    height: 20px;
+    cursor: default;
+    margin-left: 7px;
+}
+
+.bottom-one li img {
+    width: 100%;
+    height: auto;
+}
+
+.bottom-one li:hover {
+    box-shadow: 1px 1px 2px black;
+}
+
+.bottom-two {
+    width: 279px;
+}
+
+.bottom-two li {
+    float: left;
+    height: 20px;
+    margin: 0 5px;
+}
+
+.bottom-two img {
+    float: left;
+    width: 20px;
+    height: 20px;
+}
+
+.bottom-two span {
+    float: left;
+    line-height: 20px;
+    padding-left: 4px;
+}
+
+.bottom-two li:hover {
+    box-shadow: 1px 1px 2px black;
+}
+
+/*双击朋友弹出的对话框*/
+.eject {
+    width: 584px;
+    height: 508px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: -240px auto auto -280px;
+    border: 1px solid red;
+    display: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
