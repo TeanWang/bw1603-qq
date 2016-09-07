@@ -1,0 +1,178 @@
+*{margin:0;padding:0;}
+ul,li{list-style-type:none;}
+a{text-decoration:none;color:black;}
+img{vertical-align:top;}
+.cf:after{content:"";display:table;clear:both;}
+.cf{*zoom:1}
+/*桌面打背景*/
+html{height:100%;position:relative;}
+body{font-size:14px;font-family:"Microsoft YaHei";background:url("../images/bc.jpg") no-repeat left center;
+   background-size:cover;height:100%;overflow:hidden;}
+/*///////////////////QQ图标////////////////////////////////////////////////*/
+.qq{width:90px;height:90px;text-align:center;border-radius:3px;position:absolute;left:20px;top:20px;z-index:1;}
+.qq:hover{cursor:pointer;}
+.box-shadow{position:absolute;left:20px;top:20px;width:90px;height:90px;}
+.qq img{width:50px;height:50px;margin-top:15px;}
+.qq p{color:white;margin-top:3px;}
+.cur{opacity:.5;filter:alpha(opacity=50);background:white;border-radius:3px;}
+/*/////////////////QQ登录界面///////////////////////////*/
+/*第一部分*/
+.qq-logo{width:430px;height:326px;background:white;display:none;position:fixed;left:50%;top:50%;margin-left:-215px;
+    margin-top:-163px;}
+.logo-title{background:url("../images/qq-login-bg.jpg") no-repeat left center;height:180px;position:relative;}
+.logo-title-icon{position:absolute;right:0;top:0;}
+.logo-title-icon li{float:left;width:30px;height:30px;background:url("../images/wins.png") no-repeat left center;}
+.logo-title-icon .icon2{background-position:-30px center;}
+.logo-title-icon .icon3{background-position:-90px center;}
+.logo-title-icon li:hover{background-color:#3a95de;cursor:pointer;}
+.logo-title-icon .icon3:hover{background-color:red;}
+/*第二部分*/
+.logo-lg{float:left;}
+.logo-img{background:url("../images/head.jpg") no-repeat left center;width:80px;height:80px;
+    background-size:80px 80px;margin-left:30px;margin-top:5px;}
+.logo-input{;width:200px;padding-left:20px;margin-top:5px;position:relative;}
+/*tip提示框1*/
+ .logo-confirmation1{position:absolute;left:-28px;top:25px;width:100px;height:30px;line-height:30px;
+    text-align:left;font-size:12px;border:1px solid #ccc;border-radius:3px;background:white;padding-left:10px;display:none;}
+ .logo-confirmation1:before{content:'';width:0;border:8px solid transparent;border-bottom-color:#ccc;
+position:absolute;left:40px;top:-16px;}
+.logo-confirmation1:after{content:'';width:0;border:8px solid transparent;border-bottom-color:white;
+    position:absolute;left:40px;top:-15px;}
+/*tip提示框2*/
+.logo-confirmation2{position:absolute;left:-28px;top:65px;width:100px;height:30px;line-height:30px;
+    text-align:left;font-size:12px;border:1px solid #ccc;border-radius:3px;background:white;padding-left:10px;display:none;}
+.logo-confirmation2:before{content:'';width:0;border:8px solid transparent;border-bottom-color:#ccc;
+    position:absolute;left:40px;top:-16px;}
+.logo-confirmation2:after{content:'';width:0;border:8px solid transparent;border-bottom-color:white;
+    position:absolute;left:40px;top:-15px;}
+/*、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、*/
+.logo-input ul{width:194px;}
+.logo-input ul li{float:left;}
+.logo-tet input{width:184px;height:30px;outline:none;padding-left:10px;font-family:'Microsoft YaHei';
+    border:1px solid #ccc;border-radius:3px;line-height:30px;position:relative;}
+.logo-tet2 input{margin-top:-1px;}
+.logo-tet1 input:hover{border-color:lightskyblue;z-index:1;}
+.logo-tet2 input:hover{border-color:lightskyblue;}
+.logo-che{width:196px;}
+.logo-che input{vertical-align:middle;outline:none;}
+.logo-che .logo-che-span1{float:left;}
+.logo-che .logo-che-span2{float:right;}
+.logo-tt {width:80px;margin-left:10px;}
+.logo-tt a{color:#2786e4;display:block;height:30px;margin-top:5px;text-align:left;line-height:30px;}
+/*第三部分*/
+.logo-load{text-align:center;height:54px;line-height:50px;margin-left:30px;}
+.logo-load input{width:198px;height:30px;background:#09a3dc;border-radius:3px;border:0 none;line-height:30px;
+    color:white;font-family:'Microsoft YaHei';font-size:16px;}
+.logo-load input:hover{cursor:pointer;}
+/*/////////////////////////////////////////////////////////////////*/
+/*、、、、、、、、、、、、、、、、、、运行界面、、、、、、、、、、、、、、、、、、、、、、、、、、*/
+.logo-content{width:280px;height:700px;border-radius:3px;position:fixed;left:1080px;top:5px;z-index:1;display:none;}
+/*上部分*/
+.qq-boxShadow{;background:url("../images/l.jpg") no-repeat left center;opacity:.5;filter:alpha(opacity=50);
+    position:absolute;left:1080px;top:5px;width:280px;height:700px;border-radius:3px;display:none;}
+.qq-title-box{background:url("../images/desk.jpg") no-repeat left center;width:280px;height:170px;}
+/*第一小部分*/
+.qq-top-title{height:30px;line-height:30px;}
+.qq-top1{float:left;margin-top:5px;margin-left:5px;}
+.qq-top2{float:right;}
+.qq-top2 li{float:left;width:30px;height:30px;background:url("../images/wins.png") no-repeat left center;}
+.qq-top2 li:hover{background-color:#e9ffad;cursor:pointer;}
+.qq-top2 .qq-top-con1{background-position:-30px center;}
+.qq-top2 .qq-top-con2{background-position:-90px center;}
+.qq-top2 .qq-top-con2:hover{background-color:red;}
+/*第二小部分*/
+.qq-top-name{height:36px;line-height:36px;text-align:left;margin-top:25px;}
+.qq-top-case{float:left}
+.qq-top-case1{font-size:20px;text-align:left;color:black;text-indent:10px;}
+.qq-top-case2{padding-top:13px;height:26px;}
+.qq-top-case2 li{float:left;margin-left:5px;height:10px;}
+/*第三小部分*/
+.qq-top-input input {outline:none;background-color:transparent;border:1px solid transparent;margin-left:10px;}
+.qq-top-input input:hover{border:1px solid black;}
+/*第四小部分*/
+.qq-top-menu{margin-top:3px;}
+.qq-top-menu li{float:left;background:url("../images/top-menu.png") no-repeat left center;width:20px;height:20px;
+    border:1px solid transparent;margin-left:3px;}
+.qq-top-menu li:hover{border-color:#ccc;cursor:pointer;}
+.qq-top-menu .qq-top-menu-img2{background-position:-20px center;}
+.qq-top-menu .qq-top-menu-img3{background-position:-40px center;}
+.qq-top-menu .qq-top-menu-img4{background-position:-60px center;}
+.qq-top-menu .qq-top-menu-img5{background-position:-80px center;margin-left:130px;}
+.qq-top-menu .qq-top-menu-img6{background-position:-100px center;}
+/*第五小部分*/
+.qq-search{margin-top:20px;position:absolute;top:120px;left:0;background:url("../images/search.png") no-repeat 250px center;}
+.qq-search input{width:280px;height:30px;border:0 none;text-indent:20px;color:white;outline:none;
+    background-color:transparent;font-size:12px;font-weight:bold;}
+.search-box-shadow{position:absolute;top:140px;left:0;background:black;opacity:.3;filter:alpha(opacity=30);
+    width:280px;height:30px;}
+/*中部分*/
+.qq-select{height:36px;border-bottom:1px solid #ccc;}
+.qq-select li{float:left;padding:8px 24px;}
+.qq-select li span{width:20px;height:20px;background:url("../images/icon-02-01.png") no-repeat left top;
+    display:block;}
+.qq-select li span:hover{background-position:left -20px;cursor:pointer;}
+.qq-select .select-img2 span{background-image:url("../images/icon-02-02.png")}
+.qq-select .select-img3 span{background-image:url("../images/icon-02-03.png")}
+.qq-select .select-img4 span{background-image:url("../images/icon-02-04.png")}
+/*下部分*/
+.qq-content{overflow-y:hidden;height:440px;}
+.qq-content ul li:hover{cursor:pointer;background-color:#f60;}
+.content-one{border-bottom:1px solid #ccc;height:54px;}
+.content-one div{float:left;}
+.content-one .content-left{padding:6px;}
+.content-one .content-left img{width:40px;height:40px;border-radius:3px;}
+.content-one .content-right{padding-top:6px;font-size:12px;color:#333;}
+.content-one .content-right h3{font-size:14px;color:black;margin-bottom:5px;}
+/*底部分*/
+
+.qq-bot-total{width:280px;}
+.qq-bot-total-ul{width:280px;font-size:14px;color:#333;}
+.qq-bot-total li{float:left;}
+.qq-bot-total li img{width:20px;height:20px;border:1px solid transparent;}
+.qq-bot-total li img:hover{border-color:#ccc;cursor:pointer;}
+/*第一部分*/
+.qq-bot-one li{margin:4px 3px 0;}
+/*第二部分*/
+.qq-bot-two li{margin:4px 4px 0;}
+/*、、、、、、、、、、、、、、、、、QQ聊天界面、、、、、、、、、、、、、、、、、*/
+.qq-chat{width:440px;height:510px;position:fixed;bottom:50%;left:50%;margin:0 0 -255px -220px;
+    background:#fbeede url(../images/box-bg.jpg) right top no-repeat;box-shadow:0 0 5px #666;
+    border-radius:4px;overflow:hidden;display:none;-webkit-transition:all 0.5s;}
+.qq-chat-win{position:absolute;width:120px;height:27px;right:0px;top:0px;}
+.qq-chat-win li{width:30px;height:27px;float:left;cursor:pointer;background-image:url(../images/wins.png);-webkit-transition:all 0.5s;}
+.qq-chat-win li:hover{background-image:url(../images/wins.png);background-color:#3a95de;}
+.qq-chat-win .she{background-position:left center;}
+.qq-chat-win .min{background-position:-30px center;}
+.qq-chat-win .max{background-position:-60px center;}
+.qq-chat-win .close{background-position:-90px center;}
+.qq-chat-win .close:hover{background-color:#ea4848!important;}
+.qq-chat-top{height:83px;width:100%;float:left;border-bottom:1px solid rgba(180,180,180,.5);}
+.qq-chat-tops{width:100%;float:left;height:42px;margin:4px 0;}
+.qq-chat-t-head{width:40px;height:40px;border:1px solid #fff;border-radius:3px;margin:0 10px;float:left;overflow:hidden;box-shadow:0 0 3px #999;}
+.qq-chat-t-head img{width:100%;height:auto;}
+.qq-chat-t-name{width:260px;height:24px;line-height:24px;font-size:18px;float:left;}
+.qq-chat-t-shuo{width:260px;height:18px;line-height:18px;font-size:10px;text-shadow:0 0 2px #fff;float:left;}
+.qq-chat-menu{width:100%;float:left;height:32px;}
+.qq-chat-menu li{float:left;height:26px;margin:2px 5px;}
+.qq-chat-menu li:hover{box-shadow:0 0 3px #666;}
+.qq-chat-menu span{width:26px;height:26px;float:left;}
+.qq-chat-menu img{width:26px;height:26px;}
+.qq-chat-menu i{width:8px;height:26px;margin:0px 3px 0px 1px;float:left;background:url(../images/icon-00.png) left center no-repeat;}
+.qq-chat-bot{height:426px;width:100%;float:left;background:rgba(255,255,255,.2);}
+.qq-chat-txt{float:left;width:100%;color:#008040;height:290px;overflow-y:scroll;line-height:20px;scrollbar-base-color:#fbeede;scrollbar-track-color:#fbeede;}
+.qq-chat-txt ul{padding:10px 0;float:left;width:100%;}
+.qq-chat-txt li{margin:3px 0;float:left;width:100%;}
+.qq-chat-my span,.qq-chat-you span{float:left;margin:0 10px;}
+.qq-chat-ner{color:#666;width:400px;margin:0 20px;}
+.qq-chat-ner img{max-width:100%;max-height:260px;width:auto;height:auto;}
+.qq-chat-text{float:left;width:100%;height:135px;border-top:1px solid rgba(180,180,180,.5);}
+.qq-chat-text ul{height:28px;float:left;width:100%;}
+.qq-chat-text li{float:left;margin:3px 0 3px 5px;height:20px;border:1px solid rgba(0,0,0,0);-webkit-transition:all 0.5s;border-radius:2px;}
+.qq-chat-text li:hover{border:1px solid #ccc;}
+.qq-chat-text li span{width:20px;height:20px;float:left;}
+.qq-chat-text li p{float:left;padding:0 3px;line-height:20px;cursor:context-menu;}
+.qq-chat-text li i{background:url(../images/icon-00.png) no-repeat center center;width:8px;height:20px;float:left;margin:0 2px;}
+.qq-chat-text .fr{margin-left:60px;}
+.qq-chat-text textarea{width:420px;height:69px;max-width:420px;max-height:69px;float:left;margin:0 10px;background:none;line-height:20px;color:#999;}
+.qq-chat-but span{padding:0 14px;line-height:24px;height:24px;float:right;margin:7px 4px 7px 0;background:#ea4848;border-radius:4px;color:#fff;cursor:pointer;}
+.qq-chat-but span:nth-child(1){padding-right:34px;background:#ea4848 url(../images/fa.png) 60px center no-repeat;}
