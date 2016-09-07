@@ -1,0 +1,275 @@
+* {margin:0; padding: 0}
+body {font-size:14px; font-family:"Microsoft YaHei"; color:#000;}
+ul,li {list-style-type: none}
+a {color:#000; text-decoration: none}
+a,img{border:0;}
+.cf:after {content: ''; clear: both; display: table}
+.cf {*zoom:1;}
+.fl {float:left}
+.fr {float:right}
+.pr{position:relative}
+.pa{position:absolute}
+
+.box{ width: 80px;height: 80px;text-align: center;padding: 5px;position: absolute;left: 20px;top: 30px;display: block;}
+.box:hover{background: rgba(234,241,255,.5); border-radius: 5px}
+.img{width: 80px;height: 53px;text-align: center;}
+.img img{width: 50px;height: 50px}
+.qq{width: 80px;height: 30px;line-height:30px;margin-top: 0;color: #fff;text-shadow: 2px 2px 2px #000}
+.alert{width:430px; height: 330px; position: fixed; left: 50%; top:50%; margin: -165px auto auto -215px; border-radius: 3px;
+    background: #ebf2f9 ; overflow: hidden; box-shadow: 0 0 5px #333;visibility:hidden}
+.qq-tuxiang{top:60px;left:113px}
+.head{ width:100%;height:180px;..........................................................................................}
+.list{ right: 0; top:0;}
+.list span{background: url("images/wins.png") no-repeat left center; width: 30px; height: 30px;float: left}
+.shezhi:hover,.little:hover{background-color:#3a95de}
+.close:hover{background-color:#D44027}
+.list .little {background-position: -30px center}
+.list .close {background-position: -90px center}
+.login{}
+.login-touxiang{ padding: 12px 11px 0 40px}
+.login-touxiang img{border-radius: 4px; overflow: hidden; width: 80px; height: 80px}
+.login-form{width: 194px; margin-top: 12px; }
+.info input{border: 1px solid #d1d1d1; height: 28px; padding: 0 7px; font-size: 12px; width: 178px;  outline:none;font-family: 'Microsoft YaHei'}
+.info input:hover{ border-color:blue;}
+.info input:hover +.pwd{border-top-color:blue}
+.info input:nth-child(1) {border-radius: 4px 4px 0 0;}
+.info input:nth-child(2) {border-radius: 0 0 4px 4px; margin-top: -1px;}
+.login-option {font-size:12px; margin-top: 8px;}
+.login-option input {vertical-align: middle; width:14px; height:14px;visibility: hidden}
+.login-option input:hover{border-color:blue}
+.login-option label {padding-left: 8px; line-height: 14px}
+.login-btn{margin-top: 13px;}
+.login-btn input {background: #09a3dc; border:0 none; border-radius: 4px; width: 100%; height: 30px; font-size: 14px;
+    font-family: 'Microsoft YaHei'; color:#fff;opacity:1;}
+.login-btn input:hover{opacity:.8}
+.sign-up {float:left; width: 80px; margin-top: 12px; margin-left: 10px}
+.sign-up a {display: inline-block; line-height: 30px; font-size: 12px; color:#2786e4;opacity:1}
+.sign-up a:hover{opacity:.7;}
+/*//复选框     、、、、、、做笔记      、  、、、、、、、、、、 */
+/*input[type="checkbox"] {*/
+    /*box-sizing: border-box;*/
+    /*left: 4px;*/
+    /*margin: 0;*/
+    /*padding: 0;*/
+    /*position: absolute;*/
+    /*top: 3px;*/
+/*}*/
+input[type="checkbox"] + label:before {
+     background: #fff url(images/check-box.png);
+     content: " ";
+     height: 14px;
+     left: 0;
+     top:1px;
+     position: absolute;
+     width: 14px;
+     vertical-align: middle;
+ }
+input[type="checkbox"]:focus + label:before,
+input[type="checkbox"] + label:hover:before {
+    background-position: -16px 0;
+}
+input[type="checkbox"]:checked + label:before {
+    background-position: -32px 0;
+}
+input[type="checkbox"][disabled] + label:before {
+    background-position: -48px 0;
+}
+input[type="checkbox"][disabled]:checked + label:before {
+    background-position: -64px 0;
+}
+
+
+
+
+/*/////////////////////////////////////////////////////////////////////////////////////////////////// */
+
+
+
+.box-1{width: 280px;height:700px;position: absolute;right: 30px;top:10px;
+    background: #fff}
+.qq-top{width: 280px;height:165px;background-image: url(images/logo/qq-bg.jpg);position: relative}
+.qq-top dl{width: 178px;height:36px;margin-top:25px}
+.qq-top dl dt{float: left;width: 90px;height:36px;line-height: 36px;font-size: 20px;text-indent: 10px;padding-right: 6px}
+.qq-top dl dd{float: left;height:10px;padding: 10px 0 0 6px}
+.qq-top-1 {width: 280px;height:28px;position: relative}
+.qq-top-1 .span5 img{ margin-left:5px; vertical-align: top;padding-top: 5px}
+.qq-top-1 .span3{position: absolute;right: 30px;top:0}
+.qq-top-1 .span4{position: absolute;right: 0;top:0}
+.qq-top-1 .span3:hover{background: #e2d7c8}
+.qq-top-1 .span4:hover{background: #ea4848}
+.qq-top-2 input{width: 260px;height:17px; outline: none;background: none;border: none;text-indent: 10px;color: #333}
+.qq-top-3 {
+    width: 270px;
+    margin: 4px 0 4px 8px;
+    height: 20px;}
+.qq-top-3 li{
+    float: left;
+    width: 20px;
+    height: 20px;
+    background-image: url(images/logo/top-menu.png);
+    cursor: pointer;
+    margin-right: 3px;}
+.qq-top-3 li:hover{box-shadow: 0 0 2px #000;}
+.qq-li{background-position: -19px center;}
+.qq-li1{background-position:-40px center;}
+.qq-li2{background-position: -60px center;}
+.qq-li3{background-position: -80px center;margin-left: 120px}
+.qq-li4{background-position: right center;}
+.qq-top-5{width: 260px;
+    float: left;
+    height: 30px;
+    padding: 0 10px;
+    background:url(images/logo/aaz.png) no-repeat 257px center rgba(0,0,0,.1);
+    color: #555;
+    position: absolute;bottom: 0;left: 0;
+    line-height: 30px;}
+.qq-top-4{width: 100%;float: left;height: 36px;border-bottom: 1px solid #ccc;}
+.qq-top-4 ul li{float: left ;width: 25%;height:36px;position: relative;}
+.qq-top-4 ul span{float: left;width: 20px;height: 20px;margin: 8px 25px;-webkit-transition: all 0.5s;}
+.qq-top-4 .span5{background: url(images/logo/i1.png)no-repeat center top ;}
+.qq-top-4 .span5:hover{background: url(images/logo/i1.png)no-repeat center -20px ;}
+.qq-top-4 .span6{background: url(images/logo/i2.png)no-repeat center top ;}
+.qq-top-4 .span6:hover{background: url(images/logo/i2.png)no-repeat center -20px ;}
+.qq-top-4 .span7{background: url(images/logo/i3.png)no-repeat center top ;}
+.qq-top-4 .span7:hover{background: url(images/logo/i3.png)no-repeat center -20px ;}
+.qq-top-4 .span8{background: url(images/logo/i4.png)no-repeat center top ;}
+.qq-top-4 .span8:hover{background: url(images/logo/i4.png)no-repeat center -20px ;}
+.qq-top-4 i{background: url(images/logo/i5.png)no-repeat center top ;
+    width: 12px;
+    height: 6px;
+    position: absolute;
+    bottom: -1px;
+    left: 21%;
+    margin-left: -6px;
+    display: none;
+}
+.qq-li5 i{display: block}
+.qq-li5 span{background-position: center bottom!important;}
+.qq-top-6{overflow: hidden;
+    outline: none;
+    width: 100%;
+    float: left;
+    height: 439px;
+    border-bottom: 1px solid #ccc;
+}
+.qq-top-6 li{
+    width: 100%;
+    height: 54px;
+    border-top: 1px solid #ccc;
+
+}
+.qq-top-6 li:hover{background: #fdecaa}
+.qq-top-6 .qq-top-img{
+    width: 40px;
+    height: 40px;
+    margin: 6px;
+    border: 1px solid #fff;
+    float: left;
+    border-radius: 4px;
+
+}
+.qq-top-img img {
+    width: 100%;
+    height: auto;
+    border-radius: 2px;
+}
+.qq-top-6 .qq-top-name{    width: 226px;
+    float: left;
+    margin-top: 7px;
+    height: 20px;
+    line-height: 20px;}
+.qq-top-6 .qq-top-name span{font-size: 14px;
+    float: left;}
+.qq-top-6 .qq-top-name i{float: right;
+    font-size: 10px;
+    color: #999;
+    margin-right: 8px;}
+.qq-top-6 .qq-top-name .red{color:red}
+.qq-top-txt {
+    float: left;
+    width: 216px;
+    height: 27px;
+    line-height: 27px;
+    color: #999;
+    overflow: hidden;
+}
+.qq-top-7{width: 100%;height: 58px}
+.qq-top-8{width: 100%;
+    float: left;
+    height: 20px;
+    margin: 7px 0 6px 0;}
+.qq-top-8 img{
+    width: 20px;
+    height: 20px;
+    float: left;
+    vertical-align: middle;
+}
+.qq-top-8 img:hover{box-shadow: 0 0 2px #000;}
+.qq-top-8 ul li{
+    width: 20px;
+    height: 20px;
+    float: left;
+    margin: 0 4px;
+    cursor: pointer;}
+.qq-top-9{
+    float: left;
+    width: 100%;
+    height: 20px;}
+.qq-top-9 img{
+    width: 20px;
+    height: 20px;
+    float: left;
+    vertical-align: middle;
+}
+.qq-top-9 ul li{float: left; height: 20px;
+    margin: 0 5px}
+.qq-top-9 span{margin-left: 5px}
+.qq-tq{width: 440px;height:510px;background:#fcf2e5;border-radius: 5px;margin: 0 auto}
+.qq-tq1{width: 100%;height:84px;background:url(images/chat/tt.jpg)no-repeat 180px;border-bottom:1px solid #ccc}
+.qq-tq2{float: right}
+.qq-tq2 li{
+    width: 30px;
+    height: 27px;
+    float: left;
+    cursor: pointer;}
+.qq-tq2 .qq-tq-li1{background: url(images/chat/win.png)no-repeat left center}
+.qq-tq2 .qq-tq-li1:hover{background: #3a95de url(images/chat/wins.png)no-repeat left center}
+.qq-tq2 .qq-tq-li2{background: url(images/chat/win.png)no-repeat -30px center}
+.qq-tq2 .qq-tq-li2:hover{background:#3a95de url(images/chat/wins.png)no-repeat -30px center}
+.qq-tq2 .qq-tq-li3{background: url(images/chat/win.png)no-repeat -60px center}
+.qq-tq2 .qq-tq-li3:hover{background:#3a95de url(images/chat/wins.png)no-repeat -60px center}
+.qq-tq2 .qq-tq-li4{background: url(images/chat/win.png)no-repeat right center}
+.qq-tq2 .qq-tq-li4:hover{background:#ea4848 url(images/chat/wins.png)no-repeat right center}
+.qq-tq3{float: left;margin: 4px 0 0 9px}
+.qq-tq3 img{width: 40px;height:40px;border: 1px solid #fff;border-radius: 3px}
+.qq-tq4{float: left;width: 240px;height:24px;line-height: 24px;text-align: left;font-size: 18px;margin: 5px 0 0 10px}
+.qq-tq5{float: left;width: 260px;height:18px;line-height: 18px;text-align: left;margin-left:10px}
+
+.qq-tq6{width: 100%;height:32px;float: left}
+.qq-tq6 ul li{float: left;margin:5px 0 0 10px}
+.qq-tq6 ul li img{;width: 26px;height:26px;float: left}
+.qq-tq6 ul li img:hover{box-shadow: 0 0 2px #000}
+
+.qq-tq7{width: 100%;height:290px;border-bottom: 1px solid #ccc;;margin-top: 15px}
+.qq-tq7 span{color: #1b9ff4;width:75px;height:20px;line-height: 20px;margin-left: 10px}
+.qq-tq7 i{color: #1b9ff4;height:20px;width: 60px;line-height: 20px;}
+.qq-tq10{width: 400px;height:20px;line-height: 20px;text-align: left;margin-left: 20px}
+
+.qq-tq8{width: 100%;height:136px;float: left;position: relative}
+.qq-tq8 ul{width: 100%}
+.qq-tq8 ul i {background: url(images/chat/dsd.png)no-repeat center center;
+    width: 8px;
+    height: 20px;
+    float: left;
+    margin: 0 2px;}
+.qq-tq8 ul li{float: left;margin-left: 5px;width: 20px;height:20px}
+.qq-tq8 .qq-tq-li6{width: 34px;height:22px}
+.qq-tq8 .qq-tq-li6 span{float: left}
+.qq-tq8 .qq-tq-li5 span{float: left}
+.qq-tq8 .qq-tq-li5{width: 80px;height:22px;float: right;margin-right: 5px}
+.qq-tq8 ul li:hover{box-shadow: 0 0 2px #000}
+.qq-tq-span{width: 68px;height:24px;position: absolute;right: 95px;bottom:20px;text-align: center;line-height: 24px;cursor: pointer;
+    border-radius: 3px;background: #ea4848;color: white}
+.qq-tq-span1{width: 87px;height:24px;position: absolute;right: 5px;bottom: 20px;text-indent: 15px;
+    line-height: 24px;background:#ea4848 url(images/chat/fa.png)no-repeat 60px center;
+    border-radius: 3px;color: white;cursor: pointer;}
