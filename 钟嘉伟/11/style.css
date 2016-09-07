@@ -1,0 +1,56 @@
+*{padding:0;margin:0}
+ul,li,dl,dt,dd{list-style-type:none}
+body{font-family:"微软雅黑"}
+a{text-decoration:none;}
+.cf:after{content:'';display:table;clear: both}
+.cf{*zoom:1}
+
+.one{width:100%;height:799px;font-size:12px;background:#2b3d51;position:relative;}
+.one1{width:60px;height:100px;position:absolute;left:20px;top:20px;cursor: pointer;}
+.one1 img{width:60px;height:60px;;margin-bottom:3px;}
+.one1-1{width:60px;height:20px;font-size:13px;color:#fff;margin-left:7px}
+.one2{width:600px;height:218px;position:absolute;top:50%;margin-top:-109px;left:50%;margin-left:-300px;}
+
+.two{width:430px;height:330px;position:absolute;top:50%;margin-top:-165px;left:50%;margin-left:-215px;background:#ebf2f9;box-shadow: 0 0 5px #333;border-radius:3px;z-index: 999;background:url("images/two/2Q==.jpg") no-repeat}
+.two1{position:relative;z-index: 9;margin-top:182px;background:#ebf2f9;border-radius:3px}
+.two2-left{width:133px;height:143px;float:left;margin-top:10px;}
+.two2-left img{width:80px;height:80px;margin-left:40px;border:1px solid #d1d1d1}
+.two2-middle{width:194px;height:143px;float:left;margin-top:10px;}
+.two2-middle input{cursor:pointer;}
+.two-right{width:103px;height:100px;float:left;margin-top:10px;}
+
+.middle-1 input{width:194px;height:27px;border-radius:4px 4px 0 0;border:0 none;border:1px solid #d1d1d1;outline:none;text-indent:8px;}
+.middle-2 input{width:194px;height:27px;border-radius:0 0 4px 4px;border:0 none;border:1px solid #d1d1d1;margin-top:-1px;margin-bottom:8px;outline:none;text-indent:8px;}
+.middle-3{color:#665e57;}
+.middle-3 input{vertical-align: middle;}
+.middle-4 input{width:194px;height:30px;border-radius:4px;border:0 none;margin-top:14px;background:#09a3dc;outline:none;color:#fff;}
+
+.two-right .right-1{display:inline-block;margin:6px 0 7px 10px;}
+.right-1 a{color:#2786e4}
+
+.two3{width:90px;height:30px;position:absolute;left:339px;top:0;}
+.two3-left{display:inline-block;width:30px;height:30px;background:url("images/two/zg.png") 0 2px;float:left}
+.two3-middle{display:inline-block;width:30px;height:30px;background:url("images/two/zg.png") 90px 2px;float:left}
+.two3-right{display:inline-block;width:30px;height:30px;background:url("images/two/zg.png") 30px 2px;float:left}
+
+.three{width:280px;height:700px;border:1px solid red;position:absolute;top:50px;right:40px;border-radius:4px;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
