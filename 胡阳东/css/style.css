@@ -1,0 +1,73 @@
+*{margin: 0;padding: 0}
+ul,li{list-style-type: none}
+.cf:hover{content: '';display: table;clear: both}
+.cf{*zoom:1}
+/*qq弹出层*/
+.box{width: 280px;background:#fff;border:1px solid #ccc;border-radius: 5px;position: fixed;top:20px;right: 20px;height: 664px}
+    /*top样式*/
+.top{width: 100%;height: 166px;overflow: hidden;position: relative;background:url("../images/qq-bg.jpg");}
+.top-qq{height: 28px;}
+.top-left{float:left;background: url('../images/qq-top.png') no-repeat center center;width: 50px;height: 18px;margin: 7px 0 0 7px}
+.top-xx{float: left;background: url("../images/qq-top-01.png");width: 28px;height: 28px;margin-left: 167px;cursor: pointer;}
+.top-xx:hover{background: #ddd url("../images/qq-top-01.png");}
+.top-xxx{float: right;background: url("../images/qq-top-02.png");width: 28px;height: 28px;}
+.top-xxx:hover{background: red url("../images/qq-top-02.png");}
+        /*top h1样式 站长素材*/
+.top h1 {font-size: 20px;font-weight: normal;cursor: pointer;height: 24px;padding: 7px;margin-top: 25px}
+.top h1 span{float: left;}
+.top h1 .h1-bg1{background: url("../images/zai.png") no-repeat center center;width: 15px;height: 15px;display: inline-block;cursor: default;padding: 2px;border: 1px solid transparent}
+.top h1 .h1-bg1:hover{border: 1px solid #ddd}
+.top h1 .h1-bg2{background: url("../images/lv.png") no-repeat center center;width: 22px;height: 15px;display: inline-block;cursor: default;padding: 2px;border: 1px solid transparent}
+.top h1 .h1-bg2:hover{border: 1px solid #ddd}
+.top h1 .h1-bg3{background: url("../images/svip.png") no-repeat center center;width: 30px;height: 15px;display: inline-block;cursor: default;padding: 2px;border: 1px solid transparent}
+.top h1 .h1-bg3:hover{border: 1px solid #ddd}
+         /*top h4 被刷屏了*/
+.top h4{font-size: 12px;font-weight: normal;padding: 0 0 2px 7px;color: #666}
+.sp{width: 100%;height: 25px;margin-bottom: 2px;border: 1px solid transparent;}
+         /*空间 微博。。。小图标*/
+.top-tu {float: left;padding-left: 7px}
+.sp span {float: left;margin-right: 5px}
+.top-tu .top-tu1{background: url("../images/top-menu.png") no-repeat 0 0;width: 20px;height: 20px;display: inline-block;cursor: default;border: 1px solid transparent}
+.top-tu .top-tu1:hover{border: 1px solid #ddd}
+.top-tu .top-tu2{background: url("../images/top-menu.png") no-repeat -20px 0;width: 20px;height: 20px;display: inline-block;cursor: default;border: 1px solid transparent}
+.top-tu .top-tu2:hover{border: 1px solid #ddd}
+.top-tu .top-tu3{background: url("../images/top-menu.png") no-repeat -40px 0;width: 20px;height: 20px;display: inline-block;cursor: default;border: 1px solid transparent}
+.top-tu .top-tu3:hover{border: 1px solid #ddd}
+.top-tu .top-tu4{background: url("../images/top-menu.png") no-repeat -60px 0;width: 20px;height: 20px;display: inline-block;cursor: default;border: 1px solid transparent}
+.top-tu .top-tu4:hover{border: 1px solid #ddd}
+.top-xxi{float: right;padding-right: 7px}
+.top-xxi .top-xxi1{background: url("../images/top-menu.png") no-repeat -80px 0;width: 20px;height: 20px;display: inline-block;cursor: default;border: 1px solid transparent}
+.top-xxi .top-xxi1:hover{border: 1px solid #ddd}
+.top-xxi .top-xxi2{background: url("../images/top-menu.png") no-repeat -100px 0;width: 20px;height: 20px;display: inline-block;cursor: default;border: 1px solid transparent}
+.top-xxi .top-xxi2:hover{border: 1px solid #ddd}
+   /*搜索。。。*/
+.background {color:#666;font-size: 12px;height: 30px;line-height: 30px;width: 100%;float: left;margin-left: 7px;}
+.ss{background: url("../images/serch.png") no-repeat center center;display: inline-block;width: 15px;height: 14px;margin-left: 60px;line-height: 30px;}
+.opactiy {cursor: text;position: absolute;left: 0;bottom:0;width: 100%;height: 30px;opacity: .2;background: #000}
+/*body-top*/
+    /*body-top-head*/
+.body-top-head{width: 100%;height: 37px;border-bottom: 1px solid #ccc;position: relative}
+    /*.body-top-head span小图标*/
+.body-top-head span {display: inline-block;width: 60px;height: 20px;cursor: pointer}
+.body-top-head .body-top-head-tu1 {background: url("../images/log/icon-02-01.png") no-repeat center 0;margin-top: 10px}
+.body-top-head .body-top-head-tu2 {background: url("../images/log/icon-02-02.png") no-repeat center 0}
+.body-top-head .body-top-head-tu3 {background: url("../images/log/icon-02-03.png") no-repeat center 0}
+.body-top-head .body-top-head-tu4 {background: url("../images/log/icon-02-04.png") no-repeat center 0}
+/*小三角形*/
+.body-top-head .sjx {position: absolute;left: 0;bottom: -8px;background: url("../images/log/qq-xuan-jiao.png") no-repeat center center}
+/*聊天记录*/
+.body-top-fzs{overflow: auto;height: 400px}
+.body-top-fz{height: 59px;width: 100%;border-bottom: 1px solid #ccc;}
+.body-top-fz .body-top-fz-img {float: left;margin:7px 5px 7px 7px}
+.body-top-fz .body-top-fz-img img {width: 42px;height: 42px}
+.body-top-fz .body-top-fz-name{float: left;width: 199px;font-size: 12px;margin:7px 5px 7px 5px;line-height: 22px}
+.body-top-fz .body-top-fz-name span{float: right;margin-right: 7px;display: inline-block}
+.body-top-fz .body-top-fz-name i{font-size: 12px;font-style: normal;color: #666;float: left;overflow: hidden;width: 199px;height: 20px}
+.body-top-fz:hover{background: rgba(255,150,0,.5)}
+/*qq底部样式*/
+.bottom{background:#f0f3f5;font-size: 12px;height: 60px}
+.bottom-top{padding: 7px 7px 0 7px;height: 26px}
+.bottom  span{float: left;display: inline-block}
+.bottom span img {width: 20px;height: 20px;border: 1px solid transparent;padding: 2px;vertical-align: middle}
+.bottom .bottom-top span img:hover{border: 1px solid #ddd;}
+.bottom-bot{padding: 0 7px 5px 7px ;height: 26px}
