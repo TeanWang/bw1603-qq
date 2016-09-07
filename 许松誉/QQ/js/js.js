@@ -8,7 +8,7 @@ $(function () {
     }, function () {
         $('.box-shadow').removeClass('cur')
     });
-    //鼠标双击QQ图标弹出登录界面
+    //鼠标双击QQ图标弹出登录界面zzzzzzzzz
     $('.qq').dblclick(function () {
         $('.qq-logo').fadeIn();
         //点×关闭登录界面
